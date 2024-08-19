@@ -1,0 +1,95 @@
+@mixin abstract-card() {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07), 0 4px 14px rgba(0, 0, 0, 0.05);
+  margin: $sp-4 (-$gutter-spacing-sm);
+
+  @include mq(md) {
+    border-radius: $border-radius;
+    margin: $sp-4 0;
+  }
+}
+
+%card {
+  @include abstract-card();
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 0 $sp-4;
+  position: relative;
+  word-wrap: break-word;
+
+  >:first-child {
+    border-top: none !important;
+  }
+
+  >:last-child {
+    border-bottom: none !important;
+  }
+
+  .label {
+    border-radius: $border-radius;
+    margin-left: 0;
+    user-select: none;
+  }
+  .label-button {
+		display: inline-block;
+		padding-top: 0.16em;
+		padding-right: 0.56em;
+		padding-bottom: 0.16em;
+		padding-left: 0.56em;
+		margin-right: $sp-2;
+		margin-left: 0;
+		color: $white;
+		text-transform: uppercase;
+		vertical-align: middle;
+		background-color: $blue-100;
+		border-radius: 4px; vertical-align: top;
+		@include fs-2;
+		
+		display: inline-block;
+		box-sizing: border-box;
+		padding-top: 0.3em;
+		padding-right: 1em;
+		padding-bottom: 0.3em;
+		padding-left: 1em;
+		margin: 0;
+		font-family: inherit;
+		font-size: inherit;
+		font-weight: 500;
+		line-height: 1.5;
+		color: $link-color;
+		text-decoration: none;
+		vertical-align: top;
+		cursor: pointer;
+		background-color: $base-button-color;
+		border-width: 0;
+		border-radius: $border-radius;
+		//box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
+		//box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
+		appearance: none;
+	
+		color: $link-color;
+		background: transparent;
+		box-shadow: inset 0 0 0 2px $grey-lt-300;
+
+		&:hover,
+		&:active,
+		&.zeroclipboard-is-hover,
+		&.zeroclipboard-is-active {
+			color: darken($link-color, 4%);
+			text-decoration: none;
+			background-color: transparent;
+			box-shadow: inset 0 0 0 3px $grey-lt-300;
+		}
+
+		&:focus {
+			text-decoration: none;
+			outline: none;
+			box-shadow: inset 0 0 0 2px $grey-dk-100, 0 0 0 3px rgba(blue, 0.25);
+		}
+
+		&:focus:hover,
+		&.selected:focus {
+			box-shadow: inset 0 0 0 2px $grey-dk-100;
+		}
+  }
+}
