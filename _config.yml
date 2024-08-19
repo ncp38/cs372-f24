@@ -18,7 +18,7 @@ tagline: "Artificial Intelligence"
 description: Fall 2024
 author: Nate Phillips
 baseurl: '/cs372-f24' # the subpath of your site, e.g. /blog
-url: 'https://ncp38.github.io/cs142-s24/' # the base hostname & protocol for your site, e.g. http://example.com
+url: 'https://ncp38.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 
 # Theme settings
