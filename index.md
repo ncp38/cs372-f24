@@ -20,20 +20,13 @@ seo:
 
 ## Administrivia
 - Instructor: Nate Phillips
-- Office hours: Mon 1-3 PM, Wed 1-3 PM.  Also available by appointment and over Slack or Zoom.
-- [Section 1 Canvas page](https://rhodes.instructure.com/courses/5966) and [Section 2 Canvas page](https://rhodes.instructure.com/courses/5967): Use for grades, online assignment submissions, and assignment solutions.
-- [Syllabus](syllabus/syllabus-142-f23.pdf) and [additional policies](syllabus/additional-policies-142-f23.pdf).
-- Tutoring hours: Sunday through Thursday evenings, 5-11pm, Briggs 001
-- <font color=red>Final exam times:</font>
-  - Section 1: Tuesday, Dec 12, 8:30-10:30 AM
-  - Section 2: Friday, December 8, 1-3:00 PM
+- Office hours: Tues/Thurs 3:15-4:15 PM & Wed 1-3 PM.  Also available by appointment and over Slack or Zoom.
+- [Canvas page](https://rhodes.instructure.com/courses/7284): Use for grades, online assignment submissions, and assignment solutions.
+- [Syllabus](syllabus/syllabus-372-f24.pdf) and [additional policies](syllabus/additional-policies-372-f24.pdf).
 
 ## Resources
-- Textbooks and tutorials: *Introduction to Java* by Liang (textbook), 
-	*Introduction to Programming in Java* by Sedgewick and Wayne (textbook),
-        [official Java tutorials](https://docs.oracle.com/javase/tutorial/), 
-        [Introduction to Programming Using Java](http://math.hws.edu/javanotes/index.html) (free online textbook)
-- Java in the browser: [Repl.it](http://repl.it/new/java), <a href="http://codehs.com">CodeHS</a>
+- Textbooks and tutorials: *Artificial Intelligence: A Modern Approach*, 4th edition, by Russell and Norvig, Pearson, 2021. (You may also use the older 3rd edition.); 
+- Java in the browser: [Repl.it](http://repl.it/new/java), <a href="http://codehs.com">CodeHS</a>;
 - <a href="https://docs.oracle.com/en/java/javase/17/docs/api/">Official Java documentation</a>
      
 
