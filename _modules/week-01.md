@@ -8,8 +8,8 @@ title: ""
 Thu, Aug 29
 : **Introduction, go over syllabus, agents.** 
 <!--- Slides ---> 
-: **Paper**{: .label .label-paper } [**Paper 1**](papers/paper1) due Oct. 8
-: **Project**{: .label .label-proj } [**Project 0**](projects/proj0) 50 point project due Sep. 10
+: [**Paper 1**](papers/paper1){: .label .label-paper } due Oct. 8
+: [**Project 0**](projects/proj0){: .label .label-proj } (50 point project) due Sep. 10
 : **Reading**{: .label .label-reading} AIMA chapters 1 and 2
 
 Tue, Sep 3
@@ -30,8 +30,8 @@ Tue, Sep 10
 Informed search, A* algorithm 
 <!--- Slides --->
 <!--- Handouts --->  
-: **Project**{: .label .label-proj } [**Project 1**](projects/proj1) due Sep. 24
-: **Homework**{: .label .label-hw } [**Homework 1**](homework/hw1) due Sep. 17
+: [**Project 1**](projects/proj1){: .label .label-proj } due Sep. 24
+: [**Homework 1**](homework/hw1){: .label .label-hw } due Sep. 17
 : **Reading**{: .label .label-reading} AIMA 3.5
 
 Thu, Sep 12
@@ -51,19 +51,19 @@ Thu, Sep 19
 : **Adverserial Search III**  
 Alpha-beta with heuristics
 <!--- Slides --->
-: **Homework**{: .label .label-hw } [**Homework 2**](homework/hw2) due Sep. 26
+: [**Homework 2**](homework/hw2){: .label .label-hw } due Sep. 26
 : **Reading**{: .label .label-reading} AIMA 5.3
 
 Tue, Sep 24
 : **Probability I**
 Terms and definitions
-: **Project**{: .label .label-proj } [**Project 2**](projects/proj2) due Oct. 8
+: [**Project 2**](projects/proj2){: .label .label-proj } due Oct. 8
 : **Reading**{: .label .label-reading} AIMA 12.1-12.3
 
 Thu, Sep 26
 : **Probability II**  
 Rules of probability
-: **Homework**{: .label .label-hw } [**Homework 3**](homework/hw3) due Oct. 3
+: [**Homework 3**](homework/hw3){: .label .label-hw } due Oct. 3
 : **Reading**{: .label .label-reading} AIMA 12.4-12.5
   
 Tue, Oct 1 
@@ -77,24 +77,24 @@ Exact interference
 
 Tue, Oct 8
 : **Bayesian Networks III**  
-: **Homework**{: .label .label-hw } [**Homework 4**](homework/hw4) due Oct. 15
-: **Project**{: .label .label-proj } [**Project 3**](projects/proj3) due Oct. 24
+: [**Homework 4**](homework/hw4){: .label .label-hw } due Oct. 15
+: [**Project 3**](projects/proj3){: .label .label-proj }  due Oct. 24
   
 Thu, Oct 10
-: **Statistical Inference**  
+: **Statistical Inference I**  
 <!--- Slides --->
 : **Reading**{: .label .label-reading} (use slides)
 
 Tue, Oct 15
 : **Statistical Inference II**
 <!--- Slides --->
-: **Paper**{: .label .label-paper } [**Paper 2**](papers/paper2) due Dec. 5
+: [**Paper 2**](papers/paper2){: .label .label-paper } due Dec. 5
 : **Reading**{: .label .label-reading} (use slides)
   
 Thu, Oct 17
 : **Naive Bayes Classifiers**  
 <!--- Slides --->
-: **Homework**{: .label .label-hw } [**Bonus assignment: Homework 5**](homework/hw5) can turn in for a bonus point on Oct. 24!
+: [**Bonus: Homework 5**](homework/hw5){: .label .label-hw } +1 point due Oct. 24!
 : **Reading**{: .label .label-reading} (use slides)
 
 Tue, Oct 22
@@ -113,17 +113,17 @@ Thu, Oct 31
 Happy Halloween!
 
 Tue, Nov 5
-: **Hidden Markov Models**  
+: **Hidden Markov Models I**  
 <!--- Slides --->
-: **Project**{: .label .label-proj } [**Project 4**](projects/proj4) due Nov. 19
+: [**Project 4**](projects/proj4){: .label .label-proj } due Nov. 19
 
 Thu, Nov 7
 : **Hidden Markov Models II**
 <!--- Slides --->
-: **Homework**{: .label .label-hw } [**Homework 6**](homework/hw6) due Nov. 14
+: [**Homework 6**](homework/hw6){: .label .label-hw } due Nov. 14
 
 Tue, Nov 12
-: **Reinforcement Learning**  
+: **Reinforcement Learning I**  
 <!--- Slides --->
 
 Thu, Nov 14
@@ -133,17 +133,17 @@ Thu, Nov 14
 Tue, Nov 19
 : **Reinforcement Learning III**
 <!--- Slides --->
-: **Homework**{: .label .label-hw } [**Homework 7**](homework/hw7) due Nov. 26
+: [**Homework 7**](homework/hw7){: .label .label-hw } due Nov. 26
   
 Thu, Nov 21
-: **Neural Networks**
+: **Neural Networks I**
 <!--- Slides --->
-: **Project**{: .label .label-proj } [**Neural net mini-project**](projects/proj5) 50 point project due Dec. 10
+: [**Neural net mini-project**](projects/proj5){: .label .label-proj } (50 point project) due Dec. 10
   
 Tue, Nov 26
 : **Neural Networks II**  
 <!--- Slides --->
-: **Homework**{: .label .label-hw } [**Homework 8**](homework/hw8) due Dec. 5
+: [**Homework 8**](homework/hw8){: .label .label-hw } due Dec. 5
 
 Thu, Nov 28
 : No class, Thanksgiving break
