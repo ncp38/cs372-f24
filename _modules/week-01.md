@@ -15,19 +15,19 @@ Thu, Aug 29
 Tue, Sep 3
 : **State Space Search I**   
 <!--- Slides --->
-Terminology, problem setup
+: Terminology, problem setup
 : **Reading**{: .label .label-reading} AIMA 3.1-3.3
 
 Thu, Sep 5
 : **State Space Search II**  
-Uninformed search
+: Uninformed search
 <!--- Slides --->
 <!--- handouts --->
 : **Reading**{: .label .label-reading} AIMA 3.4
 
 Tue, Sep 10
 : **State Space Search III** 
-Informed search, A* algorithm 
+: Informed search, A* algorithm 
 <!--- Slides --->
 <!--- Handouts --->  
 : [**Project 1**](projects/proj1){: .label .label-proj } due Sep. 24
@@ -36,33 +36,33 @@ Informed search, A* algorithm
 
 Thu, Sep 12
 : **Adverserial Search I**
-Minimax algorithm
+: Minimax algorithm
 <!--- Slides --->
 <!--- Handouts --->
 : **Reading**{: .label .label-reading} AIMA 5.1-5.2 (through minimax)
 
 Tue, Sep 17
 : **Adverserial Search II**
-Alpha-beta pruning
+: Alpha-beta pruning
 <!--- Slides --->
 : **Reading**{: .label .label-reading} AIMA 5.2 (alpha-beta pruning)
 
 Thu, Sep 19
 : **Adverserial Search III**  
-Alpha-beta with heuristics
+: Alpha-beta with heuristics
 <!--- Slides --->
 : [**Homework 2**](homework/hw2){: .label .label-hw } due Sep. 26
 : **Reading**{: .label .label-reading} AIMA 5.3
 
 Tue, Sep 24
 : **Probability I**
-Terms and definitions
+: Terms and definitions
 : [**Project 2**](projects/proj2){: .label .label-proj } due Oct. 8
 : **Reading**{: .label .label-reading} AIMA 12.1-12.3
 
 Thu, Sep 26
 : **Probability II**  
-Rules of probability
+: Rules of probability
 : [**Homework 3**](homework/hw3){: .label .label-hw } due Oct. 3
 : **Reading**{: .label .label-reading} AIMA 12.4-12.5
   
@@ -72,7 +72,7 @@ Tue, Oct 1
   
 Thu, Oct 3
 : **Bayesian Networks II** 
-Exact interference 
+: Exact interference 
 : **Reading**{: .label .label-reading} AIMA 13.3
 
 Tue, Oct 8
@@ -110,7 +110,7 @@ Tue, Oct 29
 Thu, Oct 31
 : **Markov Chains**
 <!--- Slides --->
-Happy Halloween!
+: Happy Halloween!
 
 Tue, Nov 5
 : **Hidden Markov Models I**  
