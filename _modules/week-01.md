@@ -40,3 +40,16 @@ Minimax algorithm
 <!--- Slides --->
 <!--- Handouts --->
 : **Reading**{: .label .label-reading} AIMA 5.1-5.2 (through minimax)
+
+Tue, Sep 17
+: **Adverserial Search II**
+  Alpha-beta pruning
+  <!--- Slides --->
+  : **Reading**{: .label .label-reading} AIMA 5.2 (alpha-beta pruning)
+
+Thu, Sep 19
+: **Adverserial Search III**  
+  Alpha-beta with heuristics
+  <!--- Slides --->
+  : **Homework**{: .label .label-hw } [**Homework 2**](homework/hw2) (due XXX)
+  : **Reading**{: .label .label-reading} AIMA 5.3
