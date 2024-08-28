@@ -1,0 +1,40 @@
+Enter a filename: memphis-medium.txt
+
+Enter a location ID or 0 to quit: 203744902
+Location 203744902 has roads leading to:
+    Location 203744903, 35 mph, North McLean Boulevard, 0.6682468110274411 seconds
+    Location 203874090, 25 mph, Lyndale Avenue, 1.7317488111234531 seconds
+    Location 203744900, 35 mph, North McLean Boulevard, 0.13503686738700046 seconds
+
+Enter a location ID or 0 to quit: 204000748
+Location 204000748 has roads leading to:
+    Location 761690915, 35 mph, University Street, 0.669651068426525 seconds
+    Location 424696634, 35 mph, University Street, 0.12154075823852176 seconds
+
+Enter a location ID or 0 to quit: 203804462
+Location 203804462 has roads leading to:
+    Location 1782962464, 25 mph, North Evergreen Street, 1.333633340416992 seconds
+    Location 203848835, 25 mph, North Evergreen Street, 1.7416851052228453 seconds
+    Location 203659689, 25 mph, Forrest Avenue, 24.69231471439501 seconds
+    Location 203804459, 25 mph, Forrest Avenue, 17.854901423117724 seconds
+
+Enter a location ID or 0 to quit: 203821515
+Location 203821515 has roads leading to:
+    Location 2471207719, 35 mph, University Street, 0.04334458439576069 seconds
+    Location 203785186, 25 mph, Snowden Avenue, 27.100836474422962 seconds
+    Location 203874118, 35 mph, University Street, 0.9952427092722367 seconds
+
+Enter a location ID or 0 to quit: 203744908
+Location 203744908 has roads leading to:
+    Location 203744906, 35 mph, North McLean Boulevard, 1.2369634365167521 seconds
+    Location 203761725, 45 mph, Jackson Avenue, 6.7788025788049975 seconds
+    Location 203690459, 45 mph, Jackson Avenue, 6.867268865895155 seconds
+    Location 203670571, 35 mph, North McLean Boulevard, 2.7369544646350548 seconds
+
+Enter a location ID or 0 to quit: 203744906
+Location 203744906 has roads leading to:
+    Location 203659729, 25 mph, Crump Avenue, 20.253471515230157 seconds
+    Location 203744908, 35 mph, North McLean Boulevard, 1.2369634365167521 seconds
+    Location 203744904, 35 mph, North McLean Boulevard, 0.09244719692400193 seconds
+
+Enter a location ID or 0 to quit: 0
