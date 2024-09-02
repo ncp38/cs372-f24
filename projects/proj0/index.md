@@ -57,21 +57,20 @@ road|y|x|....
 
 even though your program should assume that you can travel in either direction between locations *x* and *y*.
 
-There may be more than one "road" in a text file with the same name. In fact, this is quite common, for two reasons. First, a single physical road may be made of made up of multiple straight segments connecting intersections of other roads. Second, a curved road, even if it never intersects any other road, must be approximated by multiple straight segments.
+There may be more than one "road" in a text file with the same name. In fact, this is quite common, for two reasons. First, a single physical road may be made of made up of multiple straight segments connecting intersections of other roads. Second, a curved road, even if it never intersects any other road, should be approximated by multiple straight segments.
 
 Here are two sample road networks you should use to test your program: [memphis-small.txt](memphis-small.txt) [memphis-medium.txt](memphis-medium.txt)
 
 ## What your program should do
 
-Your program should ask the user for a filename, read the file, and then let the user type in the identifier for as many locations as they want. For each location, print the roads that are directly connected to that location, along with their speed limits, names, and how many seconds it will take to drive that particular road segment. Keep asking the user for IDs until they type a zero, then quit.
+Your program **must ask** the user for a filename, **read the file**, and then **let the user type in the identifier for as many locations** as they want. For each location, **print** the roads that are directly connected to that location, along with their speed limits, names, and how many seconds it will take to drive that particular road segment. **Keep asking** the user for IDs until they type a zero, then quit.
 
 **Efficiency**: There should not be a significant delay (< 0.5 second) between the time a user enters a location and the time your program prints back 
 the roads connected to that location. This means that you should choose your graph data structures very carefully, most likely so 
 common operations like adding a new location, adding a new road, or looking up what locations are connected to other locations run in expected constant 
 time, or at worst, logarithmic. The "memphis-medium" network contains roughly 50,000 locations and 58,000 roads, so even linear-time 
 operations will likely be too slow. The easiest way to accomplish this is to make use of a map or dictionary data structure, 
-either implemented as a hash table or with some sort of tree. See the guidelines below for more information.  **Do not assume that if your program is fast
-enough on the "small" dataset that it will be fast enough on the "medium" dataset!**
+either implemented as a hash table or with some sort of tree. See the guidelines below for more information.  **Do not assume that if your program is fast enough on the "small" dataset that it will be fast enough on the "medium" dataset!**
 
 When your program initially starts, there may be a slightly longer delay (< 5 seconds) while the road network text file is read and processed.
 
@@ -167,18 +166,20 @@ in miles combined with the speed limit of the road in miles per hour, to compute
 
 ## At the end of the project
 
-- As you are preparing to submit the project, please prepare a text file (`.txt`, pdf, or Word doc is fine) answering the following questions:
+- As you are preparing to submit the project, please **prepare a text file** (`.txt`, pdf, or Word doc is fine) answering the following questions:
   1. What bugs and conceptual difficulties did you encounter? How did you overcome them? What did you learn?
   2. Describe whatever help (if any) that you received. Don’t include readings, lectures, and exercises, but do include any help from other sources, such as websites or people (including classmates and friends) and attribute them by name.
   3. Describe any serious problems you encountered while writing the program.
   4. Did you do any of the challenges (see below)? If so, explain what you did.
   5. List any other feedback you have. Feel free to provide any feedback on how much you learned from doing the assignment, and whether you enjoyed doing it.
-- Please also add a comment at the top of your program stating your name and a pledge that you have followed the honor code and collaboration policy for this project.  This can be as simple as writing "**I have neither given nor received unauthorized aid on this program.**"  You can find the collaboration policy on the syllabus.
+- Please also add a comment at the top of your program stating **your name** and **a pledge that you have followed the honor code and collaboration policy** for this project.  This can be as simple as writing "*I have neither given nor received unauthorized aid on this program.*"  You can find the collaboration policy on the syllabus.
 - Remember, projects will be graded not only on correctness, but also appropriateness and efficiency of the algorithms you choose, and on coding style.
 
 ## Submission instructions
 
-Through Canvas, upload all your source code files and your file with the answers to the questions above.
+To submit, upload **all of your program files** to canvas, including **your name and honor pledge**, and **ensure that your code satisfies the efficiency requirements**.  Make sure to also submit your **answers to the post-project questions**
+
+Before submitting, make sure that you've included all the requirements for this project!  You can double-check by searching this page (ctrl+f or command+f) for **'must'** and **'efficiency'**; important details related to the assignment are also highlighted for your convenience.
 
 ## Additional information and hints
 
@@ -206,6 +207,6 @@ From time to time, I will offer “challenge problems” on assignments. These p
 For project 0, there are no challenges.  :(
 
 
-## Extra details you may or may not care about
+## Extra details about how this data was generated
 
 All of the files were created by downloading data from OpenStreetMap. I wrote a program to guess the speed limits based on the OpenStreetMap data for roads that didn't have speed limits encoded in the data, so some of the speeds probably aren't correct in reality.
