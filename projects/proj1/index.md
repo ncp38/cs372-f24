@@ -17,17 +17,17 @@ In this project, you will write a program that uses the A\* algorithm to find th
 **Optional starter code**: [priority queue classes (cpp/python/java)](pqueue-distrib.zip) | [proj0 solutions (python/java)](proj0-distrib.zip)  Note that these project 0 solutions will only become available after everyone turns in project 0/the last day to turn it in.
 
 ## What your program should do
- - Your program should read the `memphis-medium.txt` map and process it using the ideas from Project 0, though nothing needs to be printed.  
- - Your program should **ask the user for the starting and ending location IDs** of the desired route.  Your program should also ask **whether the user wants to print debugging information**; this is explained below.
- - Your program should **use the A\* algorithm** to compute the fastest driving route between the two locations.  As in Project 0, your program should use the speed limit for each road to determine the time it takes to travel that particular road segment. You may assume speed changes are instantaneous, and you don’t have to take traffic or stop lights (or other things which one would slow down for) into account.  
- - Your program should print the fastest route found as a sequence of location IDs and street names (see below for details).  In addition, the output should include:
+ - Your program must read the `memphis-medium.txt` map and process it using the ideas from Project 0, though nothing needs to be printed.
+ - Your program must **ask the user for the starting and ending location IDs** of the desired route.  Your program should also ask **whether the user wants to print debugging information**; this is explained below.
+ - Your program must **use the A\* algorithm** to compute the fastest driving route between the two locations.  As in Project 0, your program should use the speed limit for each road to determine the time it takes to travel that particular road segment. You may assume speed changes are instantaneous, and you don’t have to take traffic or stop lights (or other things which one would slow down for) into account.  
+ - Your program must print the fastest route found as a sequence of location IDs and street names (see below for details).  In addition, the output should include:
 	- **The total number of nodes visited** in the search tree.
 	- **The total time** the route takes to drive, in seconds.
  - In part B, your program will also take into account the agent's ability to speed
   (ignore the speed limit in a certain way).
 
 ### Debugging output
-To help you debug your program, and to help in grading, your program should also print some extra information while the A\* search is running.  However, because this information can become rather long, you will only print it if requested.
+To help you debug your program, and to help in grading, your program must also print some extra information while the A\* search is running.  However, because this information can become rather long, you will only print it if requested.
 
 If asked to print debugging information, your program must print:
 - **Information about every node removed** from the frontier, as it is removed (we call this *visiting* a node).  You should print the node's state (a location ID), the node's parent's state (also a location ID), and the _f(n)_, _g(n)_, and _h(n)_ values for the node.
@@ -51,17 +51,17 @@ If asked to print debugging information, your program must print:
 
 ## Part B: Letting the agent speed
 - This part of the project is worth the final 15% of your grade.
-- In this part, you will reimplement A\* to solve a slightly different problem (though
+- In this part, you will **reimplement A\* to solve a slightly different problem** (though
 if you've written Part A following good style, not much will change in Part B).
 - Here, we will assume that the agent is allowed to speed occasionally while driving
 through Memphis.  In particular, your program will prompt the user for the number of
 times the agent is allowed to speed (an integer >= 0).  When an agent chooses to speed,
 they will drive a single road segment at *twice* the speed limit, rather than the posted
 speed limit.  Or, equivalently, in terms of time, they will travel a road segment 
-in *half* of the time that it would normally take them.  (Note that this is not particularly realistic [although maybe in Memphis it is...], but we will use it here
+in *half* of the time that it would normally take them.  (Note that this is not particularly realistic [even if it sometimes feels that way...], but we will use it here
 because it makes adjusting the heuristic straightforward.)
 - This will require making a number of changes and additions to your code:
-  - You will need to keep track of the number of times remaining the agent will speed.
+  - You must keep track of the number of times remaining the agent will speed.
   Since this is changing, this becomes part of the *state*.  So a state is now two
   pieces of information: a location and an integer representing the number of times
   left that speeding can happen.
@@ -75,11 +75,10 @@ because it makes adjusting the heuristic straightforward.)
   "times left to speed" part of a state must be decreased by 1 for a successor state
   generated by a speeding action.
   - The heuristic function also must change to take into account speeding.  In particular,
-  since an admissible and consistent heuristic must never overestimate the true cost
+  since an admissible and consistent heuristic can never overestimate the true cost
   to the goal, the old heuristic is no longer admissible (because true driving times
-  are now smaller due to allowing speeding).  So you must invent a new heuristic that
-  will not overestimate.  This is not intended to be very hard to do, however.
-- When printing the final output for Part B, you should indicate which roads are being
+  are now smaller due to allowing speeding).  So you must **invent a new heuristic that will not overestimate**.  This is not intended to be very hard to do, however.
+- When printing the final output for Part B, you must indicate which roads are being
 sped on, and which are driven normally.
 
 
@@ -116,7 +115,7 @@ Here are four sample runs.  Assuming the debugging flag is turned off, the first
     3.  Describe any serious problems you encountered while writing the program.
     4.  **What did you use for your Part B heuristic?**
     5.  List any other feedback you have. Feel free to provide any feedback on how much you learned from doing the assignment, and whether you enjoyed doing it.
--   Please also add a comment at the top of your program stating your name and a pledge that you have followed the honor code and collaboration policy for this project. This can be as simple as writing “**I have neither given nor received unauthorized aid on this program.**” You can find the collaboration policy on the syllabus.
+-   Please also add a comment at the top of your program stating **your name** and a pledge that you have followed the honor code and collaboration policy for this project. This can be as simple as writing “**I have neither given nor received unauthorized aid on this program.**” You can find the collaboration policy on the syllabus.
 
 ## Grading
 - Your project will be graded on the correctness of your program, in particular:
@@ -129,5 +128,10 @@ It might also induce variations in the optimal route found, but it shouldn't cau
 
 ## Submission instructions
 
-Through Canvas, upload all your source code files and your file with the answers to the questions above.
+Through Canvas, upload all your source code files and your file with the answers to the questions above.  Make sure that you include:
+- your source code
+- your text file (note the extra question)
+- your name and the honor code in a header comment for your program.
+
+Requirements for this project are listed near the **'must'** keyword; you can search for this (using ctrl+f or command+f) to double-check that you've completed everything.  See the Grading section for grade notes specific to this assignment.
 
