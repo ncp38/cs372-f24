@@ -31,7 +31,7 @@ Tue, Sep 10
 <!--- Slides --->
 <!--- Handouts --->  
 : [**Project 1**](projects/proj1){: .label .label-proj } due Sep. 24
-: [**Homework 1**](homework/hw1){: .label .label-hw } due Sep. 17
+: [**Homework 1**](homework/hw1/hw1.pdf){: .label .label-hw } due Sep. 17
 : **Reading**{: .label .label-reading} AIMA 3.5
 
 Thu, Sep 12
