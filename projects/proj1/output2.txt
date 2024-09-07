@@ -1,0 +1,19 @@
+Enter starting location ID: 203874746
+Enter ending location ID: 203744893
+Do you want debugging information (y/n)? n
+
+Total travel time in seconds: 51.46371008235667
+Number of nodes visited: 14
+
+Route found is:
+203874746 (starting location)
+203785183 (Tutwiler Avenue)
+203744887 (Tutwiler Avenue)
+203744893 (North McLean Boulevard)
+
+GPS directions:
+Head west on Tutwiler Avenue
+  Drive for 0.31 miles (43.96 seconds)
+Turn right onto North McLean Boulevard
+  Drive for 0.07 miles (7.50 seconds)
+You have arrived!

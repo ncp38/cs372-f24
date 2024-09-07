@@ -1,0 +1,176 @@
+Enter starting location ID: 203874746
+Enter ending location ID: 203744893
+How many times are you allowed to speed? 1
+Do you want debugging information (y/n)? y
+
+Visiting [State=(203874746, 1), parent=null, speeding=null, g=0.0, h=8.700268210729426, f=8.700268210729426]
+    Adding [State=(203785183, 1), parent=203874746, speeding=false, g=22.19745187276032, h=4.658640394346528, f=26.856092267106845] to frontier.
+    Adding [State=(203785183, 0), parent=203874746, speeding=true, g=11.09872593638016, h=9.317280788693056, f=20.416006725073217] to frontier.
+    Adding [State=(203877193, 1), parent=203874746, speeding=false, g=16.85888240867204, h=10.706641667778918, f=27.56552407645096] to frontier.
+    Adding [State=(203877193, 0), parent=203874746, speeding=true, g=8.42944120433602, h=21.413283335557836, f=29.842724539893858] to frontier.
+    Adding [State=(2471207719, 1), parent=203874746, speeding=false, g=7.259084394738278, h=8.482775992648596, f=15.741860387386875] to frontier.
+    Adding [State=(2471207719, 0), parent=203874746, speeding=true, g=3.629542197369139, h=16.965551985297193, f=20.595094182666333] to frontier.
+
+Visiting [State=(2471207719, 1), parent=203874746, speeding=false, g=7.259084394738278, h=8.482775992648596, f=15.741860387386875]
+    Adding [State=(203821515, 1), parent=2471207719, speeding=false, g=7.534961025685693, h=8.483198577936262, f=16.018159603621953] to frontier.
+    Adding [State=(203821515, 0), parent=2471207719, speeding=true, g=7.397022710211986, h=16.966397155872524, f=24.36341986608451] to frontier.
+    Skipping [State=(203874746, 1), parent=2471207719, speeding=false, g=14.518168789476556, h=8.700268210729426, f=23.21843700020598] (already on frontier with lower cost).
+    Adding [State=(203874746, 0), parent=2471207719, speeding=true, g=10.888626592107418, h=17.400536421458852, f=28.28916301356627] to frontier.
+
+Visiting [State=(203821515, 1), parent=2471207719, speeding=false, g=7.534961025685693, h=8.483198577936262, f=16.018159603621953]
+    Skipping [State=(2471207719, 1), parent=203821515, speeding=false, g=7.810837656633108, h=8.482775992648596, f=16.293613649281703] (already on frontier with lower cost).
+    Skipping [State=(2471207719, 0), parent=203821515, speeding=true, g=7.6728993411594, h=16.965551985297193, f=24.638451326456593] (already on frontier with lower cost).
+    Adding [State=(203785186, 1), parent=203821515, speeding=false, g=29.845266883331487, h=4.192766629916293, f=34.03803351324778] to frontier.
+    Adding [State=(203785186, 0), parent=203821515, speeding=true, g=18.69011395450859, h=8.385533259832586, f=27.075647214341174] to frontier.
+    Adding [State=(203874118, 1), parent=203821515, speeding=false, g=14.888148718919918, h=8.69595500430866, f=23.58410372322858] to frontier.
+    Adding [State=(203874118, 0), parent=203821515, speeding=true, g=11.211554872302806, h=17.39191000861732, f=28.603464880920125] to frontier.
+
+Visiting [State=(203785183, 0), parent=203874746, speeding=true, g=11.09872593638016, h=9.317280788693056, f=20.416006725073217]
+    Adding [State=(203744887, 0), parent=203785183, speeding=false, g=32.86461005604532, h=4.038662971501412, f=36.90327302754673] to frontier.
+    Skipping [State=(203874746, 0), parent=203785183, speeding=false, g=33.296177809140474, h=17.400536421458852, f=50.696714230599326] (already on frontier with lower cost).
+    Skipping [State=(203785186, 0), parent=203785183, speeding=false, g=21.63366335247855, h=8.385533259832586, f=30.019196612311134] (already on frontier with lower cost).
+
+Visiting [State=(2471207719, 0), parent=203874746, speeding=true, g=3.629542197369139, h=16.965551985297193, f=20.595094182666333]
+    Adding [State=(203821515, 0), parent=2471207719, speeding=false, g=3.905418828316554, h=16.966397155872524, f=20.871815984189077] to frontier.
+    Skipping [State=(203874746, 0), parent=2471207719, speeding=false, g=10.888626592107418, h=17.400536421458852, f=28.28916301356627] (already on frontier with lower cost).
+
+Visiting [State=(203821515, 0), parent=2471207719, speeding=false, g=3.905418828316554, h=16.966397155872524, f=20.871815984189077]
+    Skipping [State=(2471207719, 0), parent=203821515, speeding=false, g=4.1812954592639695, h=16.965551985297193, f=21.14684744456116] (already on frontier with lower cost).
+    Skipping [State=(203785186, 0), parent=203821515, speeding=false, g=26.21572468596235, h=8.385533259832586, f=34.601257945794934] (already on frontier with lower cost).
+    Skipping [State=(203874118, 0), parent=203821515, speeding=false, g=11.258606521550778, h=17.39191000861732, f=28.650516530168098] (already on frontier with lower cost).
+
+Visiting [State=(203874118, 1), parent=203821515, speeding=false, g=14.888148718919918, h=8.69595500430866, f=23.58410372322858]
+    Adding [State=(203785569, 1), parent=203874118, speeding=false, g=21.925572170908325, h=9.32554207217203, f=31.251114243080355] to frontier.
+    Adding [State=(203785569, 0), parent=203874118, speeding=true, g=18.40686044491412, h=18.65108414434406, f=37.057944589258184] to frontier.
+    Adding [State=(203785189, 1), parent=203874118, speeding=false, g=37.169260144422765, h=4.597958291675194, f=41.76721843609796] to frontier.
+    Adding [State=(203785189, 0), parent=203874118, speeding=true, g=26.028704431671343, h=9.195916583350389, f=35.22462101502173] to frontier.
+    Skipping [State=(203821515, 1), parent=203874118, speeding=false, g=22.241336412154144, h=8.483198577936262, f=30.724534990090405] (already on frontier with lower cost).
+    Skipping [State=(203821515, 0), parent=203874118, speeding=true, g=18.56474256553703, h=16.966397155872524, f=35.53113972140956] (already on frontier with lower cost).
+
+Visiting [State=(203821515, 0), parent=2471207719, speeding=true, g=7.397022710211986, h=16.966397155872524, f=24.36341986608451]
+    Skipping [State=(2471207719, 0), parent=203821515, speeding=false, g=7.6728993411594, h=16.965551985297193, f=24.638451326456593] (already on frontier with lower cost).
+    Skipping [State=(203785186, 0), parent=203821515, speeding=false, g=29.70732856785778, h=8.385533259832586, f=38.09286182769036] (already on frontier with lower cost).
+    Skipping [State=(203874118, 0), parent=203821515, speeding=false, g=14.75021040344621, h=17.39191000861732, f=32.142120412063534] (already on frontier with lower cost).
+
+Visiting [State=(203785183, 1), parent=203874746, speeding=false, g=22.19745187276032, h=4.658640394346528, f=26.856092267106845]
+    Adding [State=(203744887, 1), parent=203785183, speeding=false, g=43.96333599242548, h=2.019331485750706, f=45.98266747817618] to frontier.
+    Skipping [State=(203744887, 0), parent=203785183, speeding=true, g=33.0803939325929, h=4.038662971501412, f=37.11905690409431] (already on frontier with lower cost).
+    Skipping [State=(203874746, 1), parent=203785183, speeding=false, g=44.39490374552064, h=8.700268210729426, f=53.09517195625006] (already on frontier with lower cost).
+    Skipping [State=(203874746, 0), parent=203785183, speeding=true, g=33.296177809140474, h=17.400536421458852, f=50.696714230599326] (already on frontier with lower cost).
+    Skipping [State=(203785186, 1), parent=203785183, speeding=false, g=32.732389288858705, h=4.192766629916293, f=36.925155918775] (already on frontier with lower cost).
+    Skipping [State=(203785186, 0), parent=203785183, speeding=true, g=27.464920580809512, h=8.385533259832586, f=35.850453840642096] (already on frontier with lower cost).
+
+Visiting [State=(203785186, 0), parent=203821515, speeding=true, g=18.69011395450859, h=8.385533259832586, f=27.075647214341174]
+    Adding [State=(203744893, 0), parent=203785186, speeding=false, g=40.49250043007331, h=0.0, f=40.49250043007331] to frontier.
+    Skipping [State=(203785183, 0), parent=203785186, speeding=false, g=29.225051370606977, h=9.317280788693056, f=38.54233215930003] (already on frontier with lower cost).
+    Skipping [State=(203821515, 0), parent=203785186, speeding=false, g=41.000419812154384, h=16.966397155872524, f=57.966816968026905] (already on frontier with lower cost).
+    Skipping [State=(203785189, 0), parent=203785186, speeding=false, g=28.647408802806346, h=9.195916583350389, f=37.843325386156735] (already on frontier with lower cost).
+
+Visiting [State=(203877193, 1), parent=203874746, speeding=false, g=16.85888240867204, h=10.706641667778918, f=27.56552407645096]
+    Adding [State=(1782962495, 1), parent=203877193, speeding=false, g=18.098968931874918, h=10.914472651517418, f=29.013441583392336] to frontier.
+    Adding [State=(1782962495, 0), parent=203877193, speeding=true, g=17.47892567027348, h=21.828945303034835, f=39.30787097330831] to frontier.
+    Adding [State=(1235932184, 1), parent=203877193, speeding=false, g=33.0884841251957, h=16.64989697357303, f=49.73838109876873] to frontier.
+    Adding [State=(1235932184, 0), parent=203877193, speeding=true, g=24.973683266933868, h=33.29979394714606, f=58.273477214079925] to frontier.
+    Skipping [State=(203874746, 1), parent=203877193, speeding=false, g=33.71776481734408, h=8.700268210729426, f=42.41803302807351] (already on frontier with lower cost).
+    Skipping [State=(203874746, 0), parent=203877193, speeding=true, g=25.28832361300806, h=17.400536421458852, f=42.68886003446691] (already on frontier with lower cost).
+    Adding [State=(203744885, 1), parent=203877193, speeding=false, g=36.99750648688114, h=6.548831160709607, f=43.54633764759075] to frontier.
+    Adding [State=(203744885, 0), parent=203877193, speeding=true, g=26.92819444777659, h=13.097662321419214, f=40.025856769195805] to frontier.
+
+Visiting [State=(203874746, 0), parent=2471207719, speeding=true, g=10.888626592107418, h=17.400536421458852, f=28.28916301356627]
+    Skipping [State=(203785183, 0), parent=203874746, speeding=false, g=33.08607846486774, h=9.317280788693056, f=42.403359253560794] (already on frontier with lower cost).
+    Skipping [State=(203877193, 0), parent=203874746, speeding=false, g=27.74750900077946, h=21.413283335557836, f=49.160792336337295] (already on frontier with lower cost).
+    Skipping [State=(2471207719, 0), parent=203874746, speeding=false, g=18.147710986845695, h=16.965551985297193, f=35.11326297214289] (already on frontier with lower cost).
+
+Visiting [State=(203874118, 0), parent=203821515, speeding=true, g=11.211554872302806, h=17.39191000861732, f=28.603464880920125]
+    Adding [State=(203785569, 0), parent=203874118, speeding=false, g=18.24897832429121, h=18.65108414434406, f=36.90006246863527] to frontier.
+    Skipping [State=(203785189, 0), parent=203874118, speeding=false, g=33.492666297805656, h=9.195916583350389, f=42.688582881156044] (already on frontier with lower cost).
+    Skipping [State=(203821515, 0), parent=203874118, speeding=false, g=18.56474256553703, h=16.966397155872524, f=35.53113972140956] (already on frontier with lower cost).
+
+Visiting [State=(1782962495, 1), parent=203877193, speeding=false, g=18.098968931874918, h=10.914472651517418, f=29.013441583392336]
+    Adding [State=(1782962444, 1), parent=1782962495, speeding=false, g=34.39468523543921, h=16.829752022845547, f=51.22443725828476] to frontier.
+    Adding [State=(1782962444, 0), parent=1782962495, speeding=true, g=26.246827083657067, h=33.659504045691094, f=59.90633112934816] to frontier.
+    Skipping [State=(203877193, 1), parent=1782962495, speeding=false, g=19.339055455077794, h=10.706641667778918, f=30.045697122856712] (already on frontier with lower cost).
+    Skipping [State=(203877193, 0), parent=1782962495, speeding=true, g=18.719012193476356, h=21.413283335557836, f=40.132295529034195] (already on frontier with lower cost).
+    Adding [State=(1782962439, 1), parent=1782962495, speeding=false, g=38.18525365836758, h=6.901657552665232, f=45.08691121103281] to frontier.
+    Adding [State=(1782962439, 0), parent=1782962495, speeding=true, g=28.142111295121246, h=13.803315105330464, f=41.94542640045171] to frontier.
+
+Visiting [State=(203877193, 0), parent=203874746, speeding=true, g=8.42944120433602, h=21.413283335557836, f=29.842724539893858]
+    Adding [State=(1782962495, 0), parent=203877193, speeding=false, g=9.669527727538897, h=21.828945303034835, f=31.498473030573734] to frontier.
+    Adding [State=(1235932184, 0), parent=203877193, speeding=false, g=24.659042920859676, h=33.29979394714606, f=57.95883686800573] to frontier.
+    Skipping [State=(203874746, 0), parent=203877193, speeding=false, g=25.28832361300806, h=17.400536421458852, f=42.68886003446691] (already on frontier with lower cost).
+    Skipping [State=(203744885, 0), parent=203877193, speeding=false, g=28.56806528254512, h=13.097662321419214, f=41.665727603964335] (already on frontier with lower cost).
+
+Visiting [State=(203785569, 1), parent=203874118, speeding=false, g=21.925572170908325, h=9.32554207217203, f=31.251114243080355]
+    Skipping [State=(203874118, 1), parent=203785569, speeding=false, g=28.962995622896727, h=8.69595500430866, f=37.658950627205385] (already on frontier with lower cost).
+    Skipping [State=(203874118, 0), parent=203785569, speeding=true, g=25.444283896902526, h=17.39191000861732, f=42.83619390551985] (already on frontier with lower cost).
+    Adding [State=(203829333, 1), parent=203785569, speeding=false, g=28.782300649309988, h=10.213165206725895, f=38.995465856035885] to frontier.
+    Adding [State=(203829333, 0), parent=203785569, speeding=true, g=25.353936410109156, h=20.42633041345179, f=45.78026682356095] to frontier.
+    Adding [State=(203785192, 1), parent=203785569, speeding=false, g=44.09754679188566, h=5.6970022448599895, f=49.79454903674565] to frontier.
+    Adding [State=(203785192, 0), parent=203785569, speeding=true, g=33.01155948139699, h=11.394004489719979, f=44.405563971116976] to frontier.
+
+Visiting [State=(1782962495, 0), parent=203877193, speeding=false, g=9.669527727538897, h=21.828945303034835, f=31.498473030573734]
+    Adding [State=(1782962444, 0), parent=1782962495, speeding=false, g=25.965244031103197, h=33.659504045691094, f=59.62474807679429] to frontier.
+    Skipping [State=(203877193, 0), parent=1782962495, speeding=false, g=10.909614250741773, h=21.413283335557836, f=32.32289758629961] (already on frontier with lower cost).
+    Skipping [State=(1782962439, 0), parent=1782962495, speeding=false, g=29.755812454031556, h=13.803315105330464, f=43.55912755936202] (already on frontier with lower cost).
+
+Visiting [State=(203785186, 1), parent=203821515, speeding=false, g=29.845266883331487, h=4.192766629916293, f=34.03803351324778]
+    Adding [State=(203744893, 1), parent=203785186, speeding=false, g=51.64765335889621, h=0.0, f=51.64765335889621] to frontier.
+    Skipping [State=(203744893, 0), parent=203785186, speeding=true, g=40.74646012111385, h=0.0, f=40.74646012111385] (already on frontier with lower cost).
+    Skipping [State=(203785183, 1), parent=203785186, speeding=false, g=40.38020429942988, h=4.658640394346528, f=45.038844693776404] (already on frontier with lower cost).
+    Skipping [State=(203785183, 0), parent=203785186, speeding=true, g=35.112735591380684, h=9.317280788693056, f=44.43001638007374] (already on frontier with lower cost).
+    Skipping [State=(203821515, 1), parent=203785186, speeding=false, g=52.15557274097728, h=8.483198577936262, f=60.63877131891354] (already on frontier with lower cost).
+    Skipping [State=(203821515, 0), parent=203785186, speeding=true, g=41.000419812154384, h=16.966397155872524, f=57.966816968026905] (already on frontier with lower cost).
+    Skipping [State=(203785189, 1), parent=203785186, speeding=false, g=39.80256173162924, h=4.597958291675194, f=44.40052002330444] (already on frontier with lower cost).
+    Skipping [State=(203785189, 0), parent=203785186, speeding=true, g=34.823914307480365, h=9.195916583350389, f=44.019830890830754] (already on frontier with lower cost).
+
+Visiting [State=(203785189, 0), parent=203874118, speeding=true, g=26.028704431671343, h=9.195916583350389, f=35.22462101502173]
+    Skipping [State=(203785192, 0), parent=203785189, speeding=false, g=36.015555108830604, h=11.394004489719979, f=47.40955959855059] (already on frontier with lower cost).
+    Skipping [State=(203874118, 0), parent=203785189, speeding=false, g=48.30981585717419, h=17.39191000861732, f=65.70172586579152] (already on frontier with lower cost).
+    Adding [State=(203744894, 0), parent=203785189, speeding=false, g=47.862977516178546, h=3.8013506578282734, f=51.66432817400682] to frontier.
+    Skipping [State=(203785186, 0), parent=203785189, speeding=false, g=35.9859992799691, h=8.385533259832586, f=44.371532539801684] (already on frontier with lower cost).
+
+Visiting [State=(203785569, 0), parent=203874118, speeding=false, g=18.24897832429121, h=18.65108414434406, f=36.90006246863527]
+    Skipping [State=(203874118, 0), parent=203785569, speeding=false, g=25.28640177627961, h=17.39191000861732, f=42.678311784896934] (already on frontier with lower cost).
+    Adding [State=(203829333, 0), parent=203785569, speeding=false, g=25.105706802692872, h=20.42633041345179, f=45.53203721614466] to frontier.
+    Skipping [State=(203785192, 0), parent=203785569, speeding=false, g=40.42095294526855, h=11.394004489719979, f=51.81495743498853] (already on frontier with lower cost).
+
+Visiting [State=(203744887, 0), parent=203785183, speeding=false, g=32.86461005604532, h=4.038662971501412, f=36.90327302754673]
+    Adding [State=(203744893, 0), parent=203744887, speeding=false, g=40.364984145976514, h=0.0, f=40.364984145976514] to frontier.
+    Skipping [State=(203785183, 0), parent=203744887, speeding=false, g=54.63049417571048, h=9.317280788693056, f=63.947774964403536] (already on frontier with lower cost).
+    Adding [State=(203690424, 0), parent=203744887, speeding=false, g=41.72070544498932, h=5.2618203385429005, f=46.982525783532225] to frontier.
+    Adding [State=(203734339, 0), parent=203744887, speeding=false, g=40.989222258658934, h=8.413414129571535, f=49.40263638823047] to frontier.
+
+Visiting [State=(203785569, 0), parent=203874118, speeding=true, g=18.40686044491412, h=18.65108414434406, f=37.057944589258184]
+    Skipping [State=(203874118, 0), parent=203785569, speeding=false, g=25.444283896902526, h=17.39191000861732, f=42.83619390551985] (already on frontier with lower cost).
+    Skipping [State=(203829333, 0), parent=203785569, speeding=false, g=25.263588923315783, h=20.42633041345179, f=45.689919336767574] (already on frontier with lower cost).
+    Skipping [State=(203785192, 0), parent=203785569, speeding=false, g=40.57883506589146, h=11.394004489719979, f=51.97283955561144] (already on frontier with lower cost).
+
+Visiting [State=(203829333, 1), parent=203785569, speeding=false, g=28.782300649309988, h=10.213165206725895, f=38.995465856035885]
+    Adding [State=(203829331, 1), parent=203829333, speeding=false, g=44.11487880228293, h=7.9446814036642905, f=52.05956020594722] to frontier.
+    Adding [State=(203829331, 0), parent=203829333, speeding=true, g=36.44858972579646, h=15.889362807328581, f=52.33795253312504] to frontier.
+    Skipping [State=(203785569, 1), parent=203829333, speeding=false, g=35.63902912771165, h=9.32554207217203, f=44.96457119988368] (already on frontier with lower cost).
+    Skipping [State=(203785569, 0), parent=203829333, speeding=true, g=32.21066488851082, h=18.65108414434406, f=50.86174903285488] (already on frontier with lower cost).
+    Adding [State=(761690915, 1), parent=203829333, speeding=false, g=31.133218005943945, h=10.580254195309882, f=41.71347220125383] to frontier.
+    Adding [State=(761690915, 0), parent=203829333, speeding=true, g=29.957759327626967, h=21.160508390619764, f=51.11826771824673] to frontier.
+
+Visiting [State=(1782962495, 0), parent=203877193, speeding=true, g=17.47892567027348, h=21.828945303034835, f=39.30787097330831]
+    Skipping [State=(1782962444, 0), parent=1782962495, speeding=false, g=33.774641973837774, h=33.659504045691094, f=67.43414601952887] (already on frontier with lower cost).
+    Skipping [State=(203877193, 0), parent=1782962495, speeding=false, g=18.719012193476356, h=21.413283335557836, f=40.132295529034195] (already on frontier with lower cost).
+    Skipping [State=(1782962439, 0), parent=1782962495, speeding=false, g=37.56521039676614, h=13.803315105330464, f=51.3685255020966] (already on frontier with lower cost).
+
+Visiting [State=(203744885, 0), parent=203877193, speeding=true, g=26.92819444777659, h=13.097662321419214, f=40.025856769195805]
+    Adding [State=(203734339, 0), parent=203744885, speeding=false, g=35.63307012117312, h=8.413414129571535, f=44.046484250744655] to frontier.
+    Skipping [State=(1782962439, 0), parent=203744885, speeding=false, g=28.241905693770175, h=13.803315105330464, f=42.04522079910064] (already on frontier with lower cost).
+    Skipping [State=(203877193, 0), parent=203744885, speeding=false, g=47.066818525985695, h=21.413283335557836, f=68.48010186154353] (already on frontier with lower cost).
+    Adding [State=(203659691, 0), parent=203744885, speeding=false, g=34.39633155505274, h=14.548887869394981, f=48.94521942444772] to frontier.
+
+Visiting [State=(203744893, 0), parent=203744887, speeding=false, g=40.364984145976514, h=0.0, f=40.364984145976514]
+
+Total travel time in seconds: 40.364984145976514
+Number of nodes visited: 26
+
+Route found is:
+203874746 (starting location)
+203785183 (Tutwiler Avenue, speeding)
+203744887 (Tutwiler Avenue, not speeding)
+203744893 (North McLean Boulevard, not speeding)

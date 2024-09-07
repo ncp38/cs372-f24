@@ -1,0 +1,51 @@
+Memphis locations
+-----------------
+
+2471207719 Rhodes College (main entrance on University)
+203892393 Memphis Zoo
+480814962 Graceland
+203733598 Sun Studio
+203874660 Stax Museum of American Soul Music
+203626561 Peabody Hotel
+203651779 Kroger (Cleveland & Poplar)
+203733681 Kroger (Midtown on Union)
+203992444 Kroger (Poplar Plaza)
+203777568 Overton Square (Cooper & Madison)
+203948127 U of Memphis (Central & Patterson)
+203835335 National Civil Rights Museum
+203733568 AutoZone Park
+203660791 Orpheum Theater
+203826664 Beale St (Beale & 3rd)
+1352161029 Shelby Farms Park
+203619392 Mud Island River Park
+
+Intersections west of Rhodes
+----------------------------
+
+N to S along University:
+
+203954682 Jackson
+203829333 Crump
+203785569 Mignon
+203874118 Lyndale
+203821515 Snowden
+203874746 Tutwiler
+203877193 N Parkway
+
+N to S along Barksdale:
+
+203785195 Crump
+203785192 Mignon
+203785189 Lyndale
+203785186 Snowden
+203785183 Tutwiler
+
+N to S along the east side of McLean:
+
+203744908 Jackson
+203744904 Crump
+203744897 Mignon
+203744894 Lyndale
+203744893 Snowden
+203744887 Tutwiler
+203744885 N Parkway

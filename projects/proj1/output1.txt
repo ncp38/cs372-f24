@@ -1,0 +1,18 @@
+Enter starting location ID: 2471207719
+Enter ending location ID: 203785186
+Do you want debugging information (y/n)? n
+
+Total travel time in seconds: 22.58618248859321
+Number of nodes visited: 5
+
+Route found is:
+2471207719 (starting location)
+203821515 (University Street)
+203785186 (Snowden Avenue)
+
+GPS directions:
+Head north on University Street
+  Drive for 0.00 miles (0.28 seconds)
+Turn left onto Snowden Avenue
+  Drive for 0.15 miles (22.31 seconds)
+You have arrived!

@@ -1,0 +1,70 @@
+Enter starting location ID: 203777568
+Enter ending location ID: 203948127
+Do you want debugging information (y/n)? n
+
+Total travel time in seconds: 312.79330875268033
+Number of nodes visited: 1997
+
+Route found is:
+203777568 (starting location)
+203996102 (Madison Avenue)
+203787633 (Madison Avenue)
+203739086 (Madison Avenue)
+628986670 (Madison Avenue)
+628986667 (East Parkway North)
+628986666 (East Parkway North)
+628986663 (East Parkway North)
+628986662 (East Parkway North)
+628986781 (Poplar Avenue)
+203651910 (Poplar Avenue)
+203630104 (Poplar Avenue)
+203651913 (Poplar Avenue)
+203651917 (Poplar Avenue)
+203651919 (Poplar Avenue)
+203651921 (Poplar Avenue)
+203651925 (Poplar Avenue)
+203651929 (Poplar Avenue)
+1403569453 (Poplar Avenue)
+203651937 (Poplar Avenue)
+203651947 (Poplar Avenue)
+1403569447 (Poplar Avenue)
+203622188 (Poplar Avenue)
+203651955 (Poplar Avenue)
+203651957 (Poplar Avenue)
+2868680611 (Poplar Avenue)
+1431064839 (Poplar Avenue)
+1403569457 (Poplar Avenue)
+203651960 (Poplar Avenue)
+203651964 (Poplar Avenue)
+203837645 (Poplar Avenue)
+203651973 (Poplar Avenue)
+203651977 (Poplar Avenue)
+203651981 (Poplar Avenue)
+425410163 (Poplar Avenue)
+203651986 (Poplar Avenue)
+203651990 (Poplar Avenue)
+203651994 (Poplar Avenue)
+203651997 (Poplar Avenue)
+203652000 (Poplar Avenue)
+203652004 (Poplar Avenue)
+203824471 (South Highland Street)
+203824476 (South Highland Street)
+203824478 (South Highland Street)
+203753365 (South Highland Street)
+2816874995 (South Highland Street)
+203824485 (South Highland Street)
+203872561 (Central Avenue)
+203948127 (Central Avenue)
+
+GPS directions:
+Head east on Madison Avenue
+  Drive for 0.36 miles (37.23 seconds)
+Turn left onto East Parkway North
+  Drive for 0.32 miles (20.84 seconds)
+Turn right onto Poplar Avenue
+  Drive for 2.31 miles (193.05 seconds)
+Turn right onto South Highland Street
+  Drive for 0.32 miles (32.87 seconds)
+Turn left onto Central Avenue
+  Drive for 0.28 miles (28.80 seconds)
+You have arrived!

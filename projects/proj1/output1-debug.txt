@@ -1,0 +1,39 @@
+Enter starting location ID: 2471207719
+Enter ending location ID: 203785186
+Do you want debugging information (y/n)? y
+
+Visiting [State=2471207719, parent=null, g=0.0, h=8.580439997021807, f=8.580439997021807]
+    Adding [State=203821515, parent=2471207719, g=0.275876630947415, h=8.580886868325305, f=8.85676349927272] to frontier.
+    Adding [State=203874746, parent=2471207719, g=7.259084394738278, h=9.444715266630515, f=16.703799661368794] to frontier.
+
+Visiting [State=203821515, parent=2471207719, g=0.275876630947415, h=8.580886868325305, f=8.85676349927272]
+    Skipping [State=2471207719, parent=203821515, g=0.55175326189483, h=8.580439997021807, f=9.132193258916637] (already on frontier with lower cost).
+    Adding [State=203785186, parent=203821515, g=22.58618248859321, h=0.0, f=22.58618248859321] to frontier.
+    Adding [State=203874118, parent=203821515, g=7.629064324181639, h=9.427744599626498, f=17.056808923808138] to frontier.
+
+Visiting [State=203874746, parent=2471207719, g=7.259084394738278, h=9.444715266630515, f=16.703799661368794]
+    Adding [State=203785183, parent=203874746, g=29.456536267498596, h=4.051899006191688, f=33.50843527369028] to frontier.
+    Adding [State=203877193, parent=203874746, g=24.11796680341032, h=15.648038670469225, f=39.766005473879545] to frontier.
+    Skipping [State=2471207719, parent=203874746, g=14.518168789476556, h=8.580439997021807, f=23.098608786498364] (already on frontier with lower cost).
+
+Visiting [State=203874118, parent=203821515, g=7.629064324181639, h=9.427744599626498, f=17.056808923808138]
+    Adding [State=203785569, parent=203874118, g=14.666487776170044, h=11.570037577590497, f=26.23652535376054] to frontier.
+    Adding [State=203785189, parent=203874118, g=29.91017574968449, h=3.8297287878068293, f=33.73990453749132] to frontier.
+    Skipping [State=203821515, parent=203874118, g=14.982252017415863, h=8.580886868325305, f=23.563138885741168] (already on frontier with lower cost).
+
+Visiting [State=203785186, parent=203821515, g=22.58618248859321, h=0.0, f=22.58618248859321]
+
+Total travel time in seconds: 22.58618248859321
+Number of nodes visited: 5
+
+Route found is:
+2471207719 (starting location)
+203821515 (University Street)
+203785186 (Snowden Avenue)
+
+GPS directions:
+Head north on University Street
+  Drive for 0.00 miles (0.28 seconds)
+Turn left onto Snowden Avenue
+  Drive for 0.15 miles (22.31 seconds)
+You have arrived!
