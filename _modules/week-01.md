@@ -15,7 +15,7 @@ Thu, Aug 29
 Tue, Sep 3
 : **State Space Search I**   
 <!--- Slides --->
-: **Slides**(lectures/search/f23-search-slides.pdf){: .label .label-lecture} 
+: [**Slides**](lectures/search/f23-search-slides.pdf){: .label .label-lecture} 
 : Terminology, problem setup
 : **Reading**{: .label .label-reading} AIMA 3.1-3.3
 
@@ -29,6 +29,8 @@ Thu, Sep 5
 Tue, Sep 10
 : **State Space Search III** 
 : Informed search, A* algorithm 
+: [**Example (A\*)**](lectures/search/astar-example.txt){: .label .label-lecture} 
+: [**Example (Universal Cost Search)**](lectures/search/ucs-example.txt){: .label .label-lecture} 
 <!--- Slides --->
 <!--- Handouts --->  
 : [**Project 1**](projects/proj1){: .label .label-proj } due Sep. 24
