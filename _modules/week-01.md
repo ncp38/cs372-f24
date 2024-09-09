@@ -15,6 +15,7 @@ Thu, Aug 29
 Tue, Sep 3
 : **State Space Search I**   
 <!--- Slides --->
+: **Slides**(lectures/search/f23-search-slides.pdf){: .label .label-lecture} 
 : Terminology, problem setup
 : **Reading**{: .label .label-reading} AIMA 3.1-3.3
 

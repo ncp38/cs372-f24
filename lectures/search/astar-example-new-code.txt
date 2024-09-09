@@ -1,0 +1,51 @@
+A* example, using AIMA 4th edition code:
+
+Navigate from I->A using map from class.
+
+Visiting Node: state=I, parent=null, g=0.0, h=4.5, f=4.5 from frontier.
+    Adding Node: state=D, parent=I, g=6.0, h=3.0, f=9.0 to frontier.
+    Adding Node: state=F, parent=I, g=3.0, h=6.3, f=9.3 to frontier.
+    Adding Node: state=G, parent=I, g=3.0, h=6.4, f=9.4 to frontier.
+    Adding Node: state=H, parent=I, g=2.0, h=4.2, f=6.2 to frontier.
+
+Visiting Node: state=H, parent=I, g=2.0, h=4.2, f=6.2 from frontier.
+    Adding Node: state=D, parent=H, g=5.0, h=3.0, f=8.0 to frontier.
+    Skipping Node: state=G, parent=H, g=10.0, h=6.4, f=16.4 (already on frontier with cheaper cost).
+    Skipping Node: state=I, parent=H, g=4.0, h=4.5, f=8.5 (already on frontier with cheaper cost).
+
+Visiting Node: state=D, parent=H, g=5.0, h=3.0, f=8.0 from frontier.
+    Adding Node: state=A, parent=D, g=11.0, h=0.0, f=11.0 to frontier.
+    Adding Node: state=B, parent=D, g=8.0, h=1.4, f=9.4 to frontier.
+    Adding Node: state=C, parent=D, g=11.0, h=2.2, f=13.2 to frontier.
+    Adding Node: state=E, parent=D, g=12.0, h=5.1, f=17.1 to frontier.
+    Skipping Node: state=H, parent=D, g=8.0, h=4.2, f=12.2 (already on frontier with cheaper cost).
+    Skipping Node: state=I, parent=D, g=11.0, h=4.5, f=15.5 (already on frontier with cheaper cost).
+
+Visiting Node: state=D, parent=I, g=6.0, h=3.0, f=9.0 from frontier.
+    Skipping Node: state=A, parent=D, g=12.0, h=0.0, f=12.0 (already on frontier with cheaper cost).
+    Skipping Node: state=B, parent=D, g=9.0, h=1.4, f=10.4 (already on frontier with cheaper cost).
+    Skipping Node: state=C, parent=D, g=12.0, h=2.2, f=14.2 (already on frontier with cheaper cost).
+    Skipping Node: state=E, parent=D, g=13.0, h=5.1, f=18.1 (already on frontier with cheaper cost).
+    Skipping Node: state=H, parent=D, g=9.0, h=4.2, f=13.2 (already on frontier with cheaper cost).
+    Skipping Node: state=I, parent=D, g=12.0, h=4.5, f=16.5 (already on frontier with cheaper cost).
+
+Visiting Node: state=F, parent=I, g=3.0, h=6.3, f=9.3 from frontier.
+    Adding Node: state=E, parent=F, g=9.0, h=5.1, f=14.1 to frontier.
+    Skipping Node: state=G, parent=F, g=8.0, h=6.4, f=14.4 (already on frontier with cheaper cost).
+    Skipping Node: state=I, parent=F, g=6.0, h=4.5, f=10.5 (already on frontier with cheaper cost).
+
+Visiting Node: state=B, parent=D, g=8.0, h=1.4, f=9.4 from frontier.
+    Skipping Node: state=D, parent=B, g=11.0, h=3.0, f=14.0 (already on frontier with cheaper cost).
+    Adding Node: state=A, parent=B, g=10.0, h=0.0, f=10.0 to frontier.
+
+Visiting Node: state=G, parent=I, g=3.0, h=6.4, f=9.4 from frontier.
+    Skipping Node: state=F, parent=G, g=8.0, h=6.3, f=14.3 (already on frontier with cheaper cost).
+    Skipping Node: state=H, parent=G, g=11.0, h=4.2, f=15.2 (already on frontier with cheaper cost).
+    Skipping Node: state=I, parent=G, g=6.0, h=4.5, f=10.5 (already on frontier with cheaper cost).
+
+Visiting Node: state=A, parent=B, g=10.0, h=0.0, f=10.0 from frontier.
+
+Solution found: Node: state=A, parent=B, action=A, g=10.0
+Final path: [I, H, D, B, A]
+
+Total nodes visited=8, expanded=9.

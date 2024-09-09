@@ -1,0 +1,53 @@
+Uniform cost search/Dijkstra, using code from AIMA 4th edition:
+
+Visiting Node: state=I, parent=null, g=0.0, h=0.0, f=0.0 from frontier.
+    Adding Node: state=F, parent=I, g=3.0, h=0.0, f=3.0 to frontier.
+    Adding Node: state=D, parent=I, g=6.0, h=0.0, f=6.0 to frontier.
+    Adding Node: state=H, parent=I, g=2.0, h=0.0, f=2.0 to frontier.
+    Adding Node: state=G, parent=I, g=3.0, h=0.0, f=3.0 to frontier.
+
+Visiting Node: state=H, parent=I, g=2.0, h=0.0, f=2.0 from frontier.
+    Adding Node: state=D, parent=H, g=5.0, h=0.0, f=5.0 to frontier.
+    Skipping Node: state=I, parent=H, g=4.0, h=0.0, f=4.0 (already on frontier with cheaper cost).
+    Skipping Node: state=G, parent=H, g=10.0, h=0.0, f=10.0 (already on frontier with cheaper cost).
+
+Visiting Node: state=G, parent=I, g=3.0, h=0.0, f=3.0 from frontier.
+    Skipping Node: state=F, parent=G, g=8.0, h=0.0, f=8.0 (already on frontier with cheaper cost).
+    Skipping Node: state=I, parent=G, g=6.0, h=0.0, f=6.0 (already on frontier with cheaper cost).
+    Skipping Node: state=H, parent=G, g=11.0, h=0.0, f=11.0 (already on frontier with cheaper cost).
+
+Visiting Node: state=F, parent=I, g=3.0, h=0.0, f=3.0 from frontier.
+    Adding Node: state=E, parent=F, g=9.0, h=0.0, f=9.0 to frontier.
+    Skipping Node: state=I, parent=F, g=6.0, h=0.0, f=6.0 (already on frontier with cheaper cost).
+    Skipping Node: state=G, parent=F, g=8.0, h=0.0, f=8.0 (already on frontier with cheaper cost).
+
+Visiting Node: state=D, parent=H, g=5.0, h=0.0, f=5.0 from frontier.
+    Skipping Node: state=E, parent=D, g=12.0, h=0.0, f=12.0 (already on frontier with cheaper cost).
+    Adding Node: state=C, parent=D, g=11.0, h=0.0, f=11.0 to frontier.
+    Adding Node: state=B, parent=D, g=8.0, h=0.0, f=8.0 to frontier.
+    Adding Node: state=A, parent=D, g=11.0, h=0.0, f=11.0 to frontier.
+    Skipping Node: state=I, parent=D, g=11.0, h=0.0, f=11.0 (already on frontier with cheaper cost).
+    Skipping Node: state=H, parent=D, g=8.0, h=0.0, f=8.0 (already on frontier with cheaper cost).
+
+Visiting Node: state=D, parent=I, g=6.0, h=0.0, f=6.0 from frontier.
+    Skipping Node: state=E, parent=D, g=13.0, h=0.0, f=13.0 (already on frontier with cheaper cost).
+    Skipping Node: state=C, parent=D, g=12.0, h=0.0, f=12.0 (already on frontier with cheaper cost).
+    Skipping Node: state=B, parent=D, g=9.0, h=0.0, f=9.0 (already on frontier with cheaper cost).
+    Skipping Node: state=A, parent=D, g=12.0, h=0.0, f=12.0 (already on frontier with cheaper cost).
+    Skipping Node: state=I, parent=D, g=12.0, h=0.0, f=12.0 (already on frontier with cheaper cost).
+    Skipping Node: state=H, parent=D, g=9.0, h=0.0, f=9.0 (already on frontier with cheaper cost).
+
+Visiting Node: state=B, parent=D, g=8.0, h=0.0, f=8.0 from frontier.
+    Adding Node: state=A, parent=B, g=10.0, h=0.0, f=10.0 to frontier.
+    Skipping Node: state=D, parent=B, g=11.0, h=0.0, f=11.0 (already on frontier with cheaper cost).
+
+Visiting Node: state=E, parent=F, g=9.0, h=0.0, f=9.0 from frontier.
+    Skipping Node: state=F, parent=E, g=15.0, h=0.0, f=15.0 (already on frontier with cheaper cost).
+    Skipping Node: state=D, parent=E, g=16.0, h=0.0, f=16.0 (already on frontier with cheaper cost).
+
+Visiting Node: state=A, parent=B, g=10.0, h=0.0, f=10.0 from frontier.
+
+Solution found: Node: state=A, parent=B, action=A, g=10.0
+Final path: [I, H, D, B, A]
+
+Total nodes visited=9, expanded=8
