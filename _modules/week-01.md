@@ -48,6 +48,7 @@ Thu, Sep 12
 Tue, Sep 17
 : **Adverserial Search II**
 : Alpha-beta pruning
+: [**Minimax with Alpha-Beta Pruning Example)**](lectures/advsearch/Minimax-alpha-beta-pruning-example.png){: .label .label-lecture} 
 <!--- Slides --->
 : **Reading**{: .label .label-reading} AIMA 5.2 (alpha-beta pruning)
 
