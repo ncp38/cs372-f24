@@ -41,13 +41,14 @@ Tue, Sep 10
 Thu, Sep 12
 : **Adverserial Search I**
 : Minimax algorithm
-<!--- Slides --->
+: [**Minimax Slides)**](lectures/advsearch/adverserial-search.pdf){: .label .label-lecture} 
 <!--- Handouts --->
 : **Reading**{: .label .label-reading} AIMA 5.1-5.2 (through minimax)
 
 Tue, Sep 17
 : **Adverserial Search II**
 : Alpha-beta pruning
+: [**Create your own minimax with alpha-beta pruning example!)**](https://raphsilva.github.io/utilities/minimax_simulator/#){: .label .label-lecture}
 : [**Minimax with Alpha-Beta Pruning Example)**](lectures/advsearch/Minimax-alpha-beta-pruning-example.png){: .label .label-lecture} 
 <!--- Slides --->
 : **Reading**{: .label .label-reading} AIMA 5.2 (alpha-beta pruning)
