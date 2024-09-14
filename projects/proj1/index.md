@@ -14,7 +14,7 @@ parent: Projects
 
 In this project, you will write a program that uses the A\* algorithm to find the fastest route between two locations in Memphis.  Your program will print out the route as a list of GPS-style navigation directions.
 
-**Optional starter code**: [priority queue classes (cpp/python/java)](pqueue-distrib.zip) | [proj0 solutions (python/java)](proj0-distrib.zip)  Note that these project 0 solutions will only become available after everyone turns in project 0/the last day to turn it in.
+**Optional starter code**: [priority queue classes (cpp/python/java)](pqueue-distrib.zip) | [proj0 solutions (python/java)](proj0-distrib.zip)  
 
 ## What your program should do
  - Your program must read the `memphis-medium.txt` map and process it using the ideas from Project 0, though nothing needs to be printed.

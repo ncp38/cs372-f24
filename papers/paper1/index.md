@@ -22,7 +22,7 @@ The assignment is to evaluate how we're using (or considering using) AI in the w
 
 For this paper, I am most interested in your ideas about AI.  I want to hear your voice and what you think is important in this subject area.  If you have a personal experience relating to AI, feel free to share that in your paper.  If you're unfamiliar with AI use, I recommend researching any of the above topics or even reading a book related to AI use.  A good paper will incorporate research from several different sources and viewpoints.
 
-I expect this paper to be *your own work*; do not use ChatGPT (or any other internet/personal source) to write your paper.  If you do this, the penalties (outlined in the syllabus) will be harsh.  Use of outside sources is strongly encouraged and is important for a good paper!  When you use an outside source, cite the source in your works cited and reference.  Direct quotes should always be attributed to the source.  Finally, I encourage you to consider what sources you are using; some sources are much less reliable than others and may have hidden motivations. (As an example, imagine an article written by Facebook discussing the benefits of social network use.)
+I expect this paper to be **your own work**; do not use ChatGPT (or any other internet/personal source) to write your paper.  If you do this, the penalties (outlined in the syllabus) will be harsh.  Use of outside sources is strongly encouraged and is important for a good paper!  When you use an outside source, cite the source in your works cited and reference.  Direct quotes should always be attributed to the source.  Finally, I encourage you to consider what sources you are using; some sources are much less reliable than others and may have hidden motivations. (As an example, imagine an article written by Facebook discussing the benefits of social network use.)
 
 I encourage you to first research and develop your ideas, write an outline, and then start writing a draft.  An excellent resource at any stage in this process is the writing center; they can help you solidify your ideas, design your paper's structure, and correct any errors or issues you might miss in writing the paper.
 
@@ -52,6 +52,6 @@ Some uses of AI (and thus potential topics) include:
 
 When submitting your paper on Canvas, make sure that:
 
-- Your *name* is on the paper, along with the Rhodes honor pledge *“I have neither given nor received unauthorized aid on this program.”*
-- Your paper should be long enough to fully explore your topic.  I am not creating a formal length requirement but remember that .
-- You have a *works cited* page with the relevant sources you used.  Include in-text citations when you reference your sources.
+- Your **name** is on the paper, along with the Rhodes honor pledge **“I have neither given nor received unauthorized aid on this program.”**
+- Your paper should be long enough to fully explore your topic.  I am not creating a formal length requirement but remember that your work should fully explore the topic.
+- You have a **works cited** page with the relevant sources you used.  Include in-text citations when you reference your sources.

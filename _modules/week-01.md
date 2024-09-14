@@ -57,7 +57,7 @@ Thu, Sep 19
 : **Adverserial Search III**  
 : Alpha-beta with heuristics
 <!--- Slides --->
-: [**Homework 2**](homework/hw2){: .label .label-hw } due Sep. 26
+: [**Homework 2**](homework/hw2/hw2.pdf){: .label .label-hw } due Sep. 26
 : **Reading**{: .label .label-reading} AIMA 5.3
 
 Tue, Sep 24
