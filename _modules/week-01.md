@@ -41,7 +41,7 @@ Tue, Sep 10
 Thu, Sep 12
 : **Adverserial Search I**
 : Minimax algorithm
-: [**Minimax Slides**](lectures/advsearch/adverserial-search.pdf){: .label .label-lecture} 
+: [**Minimax Slides**](lectures/advsearch/adversarial-search.pdf){: .label .label-lecture} 
 <!--- Handouts --->
 : **Reading**{: .label .label-reading} AIMA 5.1-5.2 (through minimax)
 
