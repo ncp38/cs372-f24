@@ -58,10 +58,11 @@ Thu, Sep 19
 : Alpha-beta with heuristics
 <!--- Slides --->
 : [**Homework 2**](homework/hw2/hw2.pdf){: .label .label-hw } due Sep. 26
+: **Paper topic discussion**{: .label .label-hw } due Sep. 24
 : **Reading**{: .label .label-reading} AIMA 5.3
 
 Tue, Sep 24
-: **Probability I**
+: **Probability I and Paper Topic Discussion**
 : Terms and definitions
 : [**Project 2**](projects/proj2){: .label .label-proj } due Oct. 8
 : **Reading**{: .label .label-reading} AIMA 12.1-12.3
