@@ -136,11 +136,13 @@ Note: Because we are using a cut-off depth, the computer player is not expected 
 
 ## Submission instructions
 
-Through Canvas, upload all your source code files and your file with the answers to the questions above.
+To submit, upload all your source code files to canvas, including **your name and honor pledge**, and **ensure that your tests for all the required functions**.  Make sure to also submit your **answers to the post-project questions**
+
+Before submitting, make sure that you've included all the requirements for this project!  You can double-check by searching this page (ctrl+f or command+f) for **'must'**; important details related to the assignment are also highlighted for your convenience.
 
 ## Challenges
 
-The challenges for this assignment all involve making your heuristic better.  You are essentially given free-reign to do what you want, as long as you stay within the guidelines of how minimax with alpha-beta works.  In other words, your heuristic should be a function that considers a state of the game and returns an integer value.  The way you compute that integer is up to you.
+The challenges for this assignment all involve making your heuristic better.  You are essentially given free-reign to do what you want, as long as you stay within the guidelines of how minimax with alpha-beta works.  In other words, your heuristic should be a function that considers a state of the game and returns an integer value.  The way you compute that integer is up to you. (If you're interested in doing the challenge, you should describe your heuristic and demonstrate its effectiveness above and beyond the base algorithm.)
 
 ### Some ideas to improve the Part C heuristic
 - My baseline heuristic described in Part C considers 2-in a rows, 3-in a rows, and 4-in a rows.  You can modify the number of points awarded in each of these cases.
