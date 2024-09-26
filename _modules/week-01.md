@@ -70,11 +70,11 @@ Tue, Sep 24
 Thu, Sep 26
 : **Probability II**  
 : [**Rules of probability**](lectures/probability/rules-of-prob.pdf){: .label .label-lecture} 
-: [**Homework 3**](homework/hw3){: .label .label-hw } due Oct. 3
 : **Reading**{: .label .label-reading} AIMA 12.4-12.5
   
 Tue, Oct 1 
 : **Bayesian Networks I**  
+: [**Homework 3**](homework/hw3){: .label .label-hw } due Oct. 8
 : **Reading**{: .label .label-reading} AIMA 13.1-13.2
   
 Thu, Oct 3
