@@ -80,7 +80,7 @@ There are a few additional changes you must implement:
 ### Part C: Minimax, with alpha-beta pruning, heuristics, and transposition table
 *This part is worth 25% of your grade.*
 
-[Part C sample output](partc.html)
+[Part C sample output](partc.md)
 
 It turns out even alpha-beta pruning will not make the full board size of Connect Four feasible. Instead, what we will do is similar to what humans do when faced with a game that can continue for a large number of moves: we will only look ahead a fixed number of moves. To do this, we will require a heuristic function that can estimate the quality of an unfinished game state. (See section 5.3 of the textbook or your notes from class).
 
