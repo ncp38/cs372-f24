@@ -74,7 +74,7 @@ Thu, Sep 26
   
 Tue, Oct 1 
 : **Bayesian Networks I**  
-: [**Homework 3**](homework/hw3){: .label .label-hw } due Oct. 8
+: [**Homework 3**](homework/hw3/hw3.pdf){: .label .label-hw } due Oct. 8
 : **Reading**{: .label .label-reading} AIMA 13.1-13.2
   
 Thu, Oct 3
