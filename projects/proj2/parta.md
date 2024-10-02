@@ -26,14 +26,14 @@ to make the table easier to read.)
 	</tr>
 	<tr>
 		<td>3</td>
-			<td>Tie<br>&lt; 1 sec<br>[694 states](a333.txt)</td>
-			<td>1st player wins<br>&lt; 1 sec<br>[7157 states](a343.txt)</td>
+			<td>Tie<br>&lt; 1 sec<br><a href="a333.txt">694 states</a></td>
+			<td>1st player wins<br>&lt; 1 sec<br><a href="a343.txt">7157 states</a></td>
 			<td>1st player wins<br>&lt; 1 sec<br>70914 states</td>
 			<td>1st player wins<br>~4 sec<br>692970 states</td>
 	</tr>
 	<tr>
 		<td>4</td>
-			<td>Tie<br>&lt; 1 sec<br>[2715 states](a433.txt)</td>
+			<td>Tie<br>&lt; 1 sec<br><a href="a433.txt">2715 states</a></td>
 			<td>1st player wins<br>&lt; 1 sec<br>41750 states</td>
 			<td>1st player wins<br>~4 sec<br>613459 states</td>
 	</tr>
