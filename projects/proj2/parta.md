@@ -20,6 +20,7 @@ The links in the table below will let you see the entire transposition table for
 board configurations, which may help you debug your code.  (I sorted the transposition table states alphabetically
 to make the table easier to read.)
 
+<base href="https://ncp38.github.io/cs372-f24/projects/proj2/" />
 <table border=1>
 	<tr>
 		<td>Cols &rarr;<br>Rows &darr;</td><td>3</td><td>4</td><td>5</td><td>6</td>		
