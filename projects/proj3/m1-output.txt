@@ -1,0 +1,26 @@
+Initial distribution of monkey's last location:
+  0.25000000  0.25000000
+  0.25000000  0.25000000
+
+Observation: Motion1: True, Motion2: True, Sound location: (0, 1)
+Monkey's predicted current location at time step: 0
+  0.01462622  0.83206934
+  0.13867822  0.01462622
+
+Observation: Motion1: False, Motion2: True, Sound location: (1, 1)
+Monkey's predicted current location at time step: 1
+  0.00097097  0.00140445
+  0.00140445  0.99622013
+
+Observation: Motion1: False, Motion2: False, Sound location: (1, 1)
+Monkey's predicted current location at time step: 2
+  0.00219570  0.49231507
+  0.49231507  0.01317417
+
+Observation: Motion1: True, Motion2: False, Sound location: (1, 0)
+Monkey's predicted current location at time step: 3
+  0.98089232  0.00191021
+  0.01146125  0.00573621
+
+
+

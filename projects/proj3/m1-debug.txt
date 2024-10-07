@@ -1,0 +1,184 @@
+Last location distribution:
+Last location: (0, 0), prob: 0.25000000
+Last location: (0, 1), prob: 0.25000000
+Last location: (1, 0), prob: 0.25000000
+Last location: (1, 1), prob: 0.25000000
+
+Current location distribution:
+Last location: (0, 0)
+  Current location: (1, 0), prob: 0.50000000
+  Current location: (0, 1), prob: 0.50000000
+Last location: (0, 1)
+  Current location: (0, 0), prob: 0.50000000
+  Current location: (1, 1), prob: 0.50000000
+Last location: (1, 0)
+  Current location: (0, 0), prob: 0.50000000
+  Current location: (1, 1), prob: 0.50000000
+Last location: (1, 1)
+  Current location: (0, 1), prob: 0.50000000
+  Current location: (1, 0), prob: 0.50000000
+
+Motion sensor #1 (top left) distribution
+Current location: (0, 0), true prob: 0.90000000, false prob: 0.10000000
+Current location: (0, 1), true prob: 0.80000000, false prob: 0.20000000
+Current location: (1, 0), true prob: 0.80000000, false prob: 0.20000000
+Current location: (1, 1), true prob: 0.05000000, false prob: 0.95000000
+
+Motion sensor #2 (bottom right) distribution
+Current location: (0, 0), true prob: 0.05000000, false prob: 0.95000000
+Current location: (0, 1), true prob: 0.80000000, false prob: 0.20000000
+Current location: (1, 0), true prob: 0.80000000, false prob: 0.20000000
+Current location: (1, 1), true prob: 0.90000000, false prob: 0.10000000
+
+Sound distribution:
+Current location: (0, 0)
+  Sound reported at: (0, 0), prob: 0.60000000
+  Sound reported at: (1, 0), prob: 0.15000000
+  Sound reported at: (0, 1), prob: 0.15000000
+  Sound reported at: (1, 1), prob: 0.10000000
+Current location: (0, 1)
+  Sound reported at: (0, 1), prob: 0.60000000
+  Sound reported at: (0, 0), prob: 0.15000000
+  Sound reported at: (1, 1), prob: 0.15000000
+  Sound reported at: (1, 0), prob: 0.10000000
+Current location: (1, 0)
+  Sound reported at: (1, 0), prob: 0.60000000
+  Sound reported at: (0, 0), prob: 0.15000000
+  Sound reported at: (1, 1), prob: 0.15000000
+  Sound reported at: (0, 1), prob: 0.10000000
+Current location: (1, 1)
+  Sound reported at: (1, 1), prob: 0.60000000
+  Sound reported at: (0, 1), prob: 0.15000000
+  Sound reported at: (1, 0), prob: 0.15000000
+  Sound reported at: (0, 0), prob: 0.10000000
+
+Initial distribution of monkey's last location:
+  0.25000000  0.25000000
+  0.25000000  0.25000000
+
+Observation: Motion1: True, Motion2: True, Sound location: (0, 1)
+Monkey's predicted current location at time step: 0
+  Calculating total prob for current location (0, 0)
+    Probs being multiplied for last location (0, 0): 0.25 0 0.9 0.05 0.15
+    Probs being multiplied for last location (0, 1): 0.25 0.5 0.9 0.05 0.15
+    Probs being multiplied for last location (1, 0): 0.25 0.5 0.9 0.05 0.15
+    Probs being multiplied for last location (1, 1): 0.25 0 0.9 0.05 0.15
+  Calculating total prob for current location (0, 1)
+    Probs being multiplied for last location (0, 0): 0.25 0.5 0.8 0.8 0.6
+    Probs being multiplied for last location (0, 1): 0.25 0 0.8 0.8 0.6
+    Probs being multiplied for last location (1, 0): 0.25 0 0.8 0.8 0.6
+    Probs being multiplied for last location (1, 1): 0.25 0.5 0.8 0.8 0.6
+  Calculating total prob for current location (1, 0)
+    Probs being multiplied for last location (0, 0): 0.25 0.5 0.8 0.8 0.1
+    Probs being multiplied for last location (0, 1): 0.25 0 0.8 0.8 0.1
+    Probs being multiplied for last location (1, 0): 0.25 0 0.8 0.8 0.1
+    Probs being multiplied for last location (1, 1): 0.25 0.5 0.8 0.8 0.1
+  Calculating total prob for current location (1, 1)
+    Probs being multiplied for last location (0, 0): 0.25 0 0.05 0.9 0.15
+    Probs being multiplied for last location (0, 1): 0.25 0.5 0.05 0.9 0.15
+    Probs being multiplied for last location (1, 0): 0.25 0.5 0.05 0.9 0.15
+    Probs being multiplied for last location (1, 1): 0.25 0 0.05 0.9 0.15
+
+Before normalization:
+  0.00168750  0.09600000
+  0.01600000  0.00168750
+
+After normalization:
+  0.01462622  0.83206934
+  0.13867822  0.01462622
+
+Observation: Motion1: False, Motion2: True, Sound location: (1, 1)
+Monkey's predicted current location at time step: 1
+  Calculating total prob for current location (0, 0)
+    Probs being multiplied for last location (0, 0): 0.01462621885157096424702058505 0 0.1 0.05 0.1
+    Probs being multiplied for last location (0, 1): 0.8320693391115926327193932828 0.5 0.1 0.05 0.1
+    Probs being multiplied for last location (1, 0): 0.1386782231852654387865655471 0.5 0.1 0.05 0.1
+    Probs being multiplied for last location (1, 1): 0.01462621885157096424702058505 0 0.1 0.05 0.1
+  Calculating total prob for current location (0, 1)
+    Probs being multiplied for last location (0, 0): 0.01462621885157096424702058505 0.5 0.2 0.8 0.15
+    Probs being multiplied for last location (0, 1): 0.8320693391115926327193932828 0 0.2 0.8 0.15
+    Probs being multiplied for last location (1, 0): 0.1386782231852654387865655471 0 0.2 0.8 0.15
+    Probs being multiplied for last location (1, 1): 0.01462621885157096424702058505 0.5 0.2 0.8 0.15
+  Calculating total prob for current location (1, 0)
+    Probs being multiplied for last location (0, 0): 0.01462621885157096424702058505 0.5 0.2 0.8 0.15
+    Probs being multiplied for last location (0, 1): 0.8320693391115926327193932828 0 0.2 0.8 0.15
+    Probs being multiplied for last location (1, 0): 0.1386782231852654387865655471 0 0.2 0.8 0.15
+    Probs being multiplied for last location (1, 1): 0.01462621885157096424702058505 0.5 0.2 0.8 0.15
+  Calculating total prob for current location (1, 1)
+    Probs being multiplied for last location (0, 0): 0.01462621885157096424702058505 0 0.95 0.9 0.6
+    Probs being multiplied for last location (0, 1): 0.8320693391115926327193932828 0.5 0.95 0.9 0.6
+    Probs being multiplied for last location (1, 0): 0.1386782231852654387865655471 0.5 0.95 0.9 0.6
+    Probs being multiplied for last location (1, 1): 0.01462621885157096424702058505 0 0.95 0.9 0.6
+
+Before normalization:
+  0.00024269  0.00035103
+  0.00035103  0.24899675
+
+After normalization:
+  0.00097097  0.00140445
+  0.00140445  0.99622013
+
+Observation: Motion1: False, Motion2: False, Sound location: (1, 1)
+Monkey's predicted current location at time step: 2
+  Calculating total prob for current location (0, 0)
+    Probs being multiplied for last location (0, 0): 0.0009709747893331483857544127340 0 0.1 0.95 0.1
+    Probs being multiplied for last location (0, 1): 0.001404445677428303915109061276 0.5 0.1 0.95 0.1
+    Probs being multiplied for last location (1, 0): 0.001404445677428303915109061276 0.5 0.1 0.95 0.1
+    Probs being multiplied for last location (1, 1): 0.9962201338558102437840274647 0 0.1 0.95 0.1
+  Calculating total prob for current location (0, 1)
+    Probs being multiplied for last location (0, 0): 0.0009709747893331483857544127340 0.5 0.2 0.2 0.15
+    Probs being multiplied for last location (0, 1): 0.001404445677428303915109061276 0 0.2 0.2 0.15
+    Probs being multiplied for last location (1, 0): 0.001404445677428303915109061276 0 0.2 0.2 0.15
+    Probs being multiplied for last location (1, 1): 0.9962201338558102437840274647 0.5 0.2 0.2 0.15
+  Calculating total prob for current location (1, 0)
+    Probs being multiplied for last location (0, 0): 0.0009709747893331483857544127340 0.5 0.2 0.2 0.15
+    Probs being multiplied for last location (0, 1): 0.001404445677428303915109061276 0 0.2 0.2 0.15
+    Probs being multiplied for last location (1, 0): 0.001404445677428303915109061276 0 0.2 0.2 0.15
+    Probs being multiplied for last location (1, 1): 0.9962201338558102437840274647 0.5 0.2 0.2 0.15
+  Calculating total prob for current location (1, 1)
+    Probs being multiplied for last location (0, 0): 0.0009709747893331483857544127340 0 0.95 0.1 0.6
+    Probs being multiplied for last location (0, 1): 0.001404445677428303915109061276 0.5 0.95 0.1 0.6
+    Probs being multiplied for last location (1, 0): 0.001404445677428303915109061276 0.5 0.95 0.1 0.6
+    Probs being multiplied for last location (1, 1): 0.9962201338558102437840274647 0 0.95 0.1 0.6
+
+Before normalization:
+  0.00001334  0.00299157
+  0.00299157  0.00008005
+
+After normalization:
+  0.00219570  0.49231507
+  0.49231507  0.01317417
+
+Observation: Motion1: True, Motion2: False, Sound location: (1, 0)
+Monkey's predicted current location at time step: 3
+  Calculating total prob for current location (0, 0)
+    Probs being multiplied for last location (0, 0): 0.002195695068032306250240756038 0 0.9 0.95 0.15
+    Probs being multiplied for last location (0, 1): 0.4923150672618869281241573539 0.5 0.9 0.95 0.15
+    Probs being multiplied for last location (1, 0): 0.4923150672618869281241573539 0.5 0.9 0.95 0.15
+    Probs being multiplied for last location (1, 1): 0.01317417040819383750144453623 0 0.9 0.95 0.15
+  Calculating total prob for current location (0, 1)
+    Probs being multiplied for last location (0, 0): 0.002195695068032306250240756038 0.5 0.8 0.2 0.1
+    Probs being multiplied for last location (0, 1): 0.4923150672618869281241573539 0 0.8 0.2 0.1
+    Probs being multiplied for last location (1, 0): 0.4923150672618869281241573539 0 0.8 0.2 0.1
+    Probs being multiplied for last location (1, 1): 0.01317417040819383750144453623 0.5 0.8 0.2 0.1
+  Calculating total prob for current location (1, 0)
+    Probs being multiplied for last location (0, 0): 0.002195695068032306250240756038 0.5 0.8 0.2 0.6
+    Probs being multiplied for last location (0, 1): 0.4923150672618869281241573539 0 0.8 0.2 0.6
+    Probs being multiplied for last location (1, 0): 0.4923150672618869281241573539 0 0.8 0.2 0.6
+    Probs being multiplied for last location (1, 1): 0.01317417040819383750144453623 0.5 0.8 0.2 0.6
+  Calculating total prob for current location (1, 1)
+    Probs being multiplied for last location (0, 0): 0.002195695068032306250240756038 0 0.05 0.1 0.15
+    Probs being multiplied for last location (0, 1): 0.4923150672618869281241573539 0.5 0.05 0.1 0.15
+    Probs being multiplied for last location (1, 0): 0.4923150672618869281241573539 0.5 0.05 0.1 0.15
+    Probs being multiplied for last location (1, 1): 0.01317417040819383750144453623 0 0.05 0.1 0.15
+
+Before normalization:
+  0.06313941  0.00012296
+  0.00073775  0.00036924
+
+After normalization:
+  0.98089232  0.00191021
+  0.01146125  0.00573621
+
+
+

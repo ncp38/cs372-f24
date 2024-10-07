@@ -1,0 +1,765 @@
+Last location distribution:
+Last location: (0, 0), prob: 0.11111111
+Last location: (0, 1), prob: 0.11111111
+Last location: (0, 2), prob: 0.11111111
+Last location: (1, 0), prob: 0.11111111
+Last location: (1, 1), prob: 0.11111111
+Last location: (1, 2), prob: 0.11111111
+Last location: (2, 0), prob: 0.11111111
+Last location: (2, 1), prob: 0.11111111
+Last location: (2, 2), prob: 0.11111111
+
+Current location distribution:
+Last location: (0, 0)
+  Current location: (1, 0), prob: 0.50000000
+  Current location: (0, 1), prob: 0.50000000
+Last location: (0, 1)
+  Current location: (0, 0), prob: 0.33333333
+  Current location: (1, 1), prob: 0.33333333
+  Current location: (0, 2), prob: 0.33333333
+Last location: (0, 2)
+  Current location: (0, 1), prob: 0.50000000
+  Current location: (1, 2), prob: 0.50000000
+Last location: (1, 0)
+  Current location: (0, 0), prob: 0.33333333
+  Current location: (2, 0), prob: 0.33333333
+  Current location: (1, 1), prob: 0.33333333
+Last location: (1, 1)
+  Current location: (0, 1), prob: 0.25000000
+  Current location: (1, 0), prob: 0.25000000
+  Current location: (2, 1), prob: 0.25000000
+  Current location: (1, 2), prob: 0.25000000
+Last location: (1, 2)
+  Current location: (0, 2), prob: 0.33333333
+  Current location: (1, 1), prob: 0.33333333
+  Current location: (2, 2), prob: 0.33333333
+Last location: (2, 0)
+  Current location: (1, 0), prob: 0.50000000
+  Current location: (2, 1), prob: 0.50000000
+Last location: (2, 1)
+  Current location: (1, 1), prob: 0.33333333
+  Current location: (2, 0), prob: 0.33333333
+  Current location: (2, 2), prob: 0.33333333
+Last location: (2, 2)
+  Current location: (1, 2), prob: 0.50000000
+  Current location: (2, 1), prob: 0.50000000
+
+Motion sensor #1 (top left) distribution
+Current location: (0, 0), true prob: 0.90000000, false prob: 0.10000000
+Current location: (0, 1), true prob: 0.80000000, false prob: 0.20000000
+Current location: (0, 2), true prob: 0.70000000, false prob: 0.30000000
+Current location: (1, 0), true prob: 0.80000000, false prob: 0.20000000
+Current location: (1, 1), true prob: 0.05000000, false prob: 0.95000000
+Current location: (1, 2), true prob: 0.05000000, false prob: 0.95000000
+Current location: (2, 0), true prob: 0.70000000, false prob: 0.30000000
+Current location: (2, 1), true prob: 0.05000000, false prob: 0.95000000
+Current location: (2, 2), true prob: 0.05000000, false prob: 0.95000000
+
+Motion sensor #2 (bottom right) distribution
+Current location: (0, 0), true prob: 0.05000000, false prob: 0.95000000
+Current location: (0, 1), true prob: 0.05000000, false prob: 0.95000000
+Current location: (0, 2), true prob: 0.70000000, false prob: 0.30000000
+Current location: (1, 0), true prob: 0.05000000, false prob: 0.95000000
+Current location: (1, 1), true prob: 0.05000000, false prob: 0.95000000
+Current location: (1, 2), true prob: 0.80000000, false prob: 0.20000000
+Current location: (2, 0), true prob: 0.70000000, false prob: 0.30000000
+Current location: (2, 1), true prob: 0.80000000, false prob: 0.20000000
+Current location: (2, 2), true prob: 0.90000000, false prob: 0.10000000
+
+Sound distribution:
+Current location: (0, 0)
+  Sound reported at: (0, 0), prob: 0.60000000
+  Sound reported at: (1, 0), prob: 0.15000000
+  Sound reported at: (0, 1), prob: 0.15000000
+  Sound reported at: (0, 2), prob: 0.03333333
+  Sound reported at: (1, 1), prob: 0.03333333
+  Sound reported at: (2, 0), prob: 0.03333333
+Current location: (0, 1)
+  Sound reported at: (0, 1), prob: 0.60000000
+  Sound reported at: (0, 0), prob: 0.10000000
+  Sound reported at: (1, 1), prob: 0.10000000
+  Sound reported at: (0, 2), prob: 0.10000000
+  Sound reported at: (1, 0), prob: 0.03333333
+  Sound reported at: (1, 2), prob: 0.03333333
+  Sound reported at: (2, 1), prob: 0.03333333
+Current location: (0, 2)
+  Sound reported at: (0, 2), prob: 0.60000000
+  Sound reported at: (0, 1), prob: 0.15000000
+  Sound reported at: (1, 2), prob: 0.15000000
+  Sound reported at: (0, 0), prob: 0.03333333
+  Sound reported at: (1, 1), prob: 0.03333333
+  Sound reported at: (2, 2), prob: 0.03333333
+Current location: (1, 0)
+  Sound reported at: (1, 0), prob: 0.60000000
+  Sound reported at: (0, 0), prob: 0.10000000
+  Sound reported at: (2, 0), prob: 0.10000000
+  Sound reported at: (1, 1), prob: 0.10000000
+  Sound reported at: (0, 1), prob: 0.03333333
+  Sound reported at: (1, 2), prob: 0.03333333
+  Sound reported at: (2, 1), prob: 0.03333333
+Current location: (1, 1)
+  Sound reported at: (1, 1), prob: 0.60000000
+  Sound reported at: (0, 1), prob: 0.07500000
+  Sound reported at: (1, 0), prob: 0.07500000
+  Sound reported at: (2, 1), prob: 0.07500000
+  Sound reported at: (1, 2), prob: 0.07500000
+  Sound reported at: (0, 0), prob: 0.02500000
+  Sound reported at: (0, 2), prob: 0.02500000
+  Sound reported at: (2, 0), prob: 0.02500000
+  Sound reported at: (2, 2), prob: 0.02500000
+Current location: (1, 2)
+  Sound reported at: (1, 2), prob: 0.60000000
+  Sound reported at: (0, 2), prob: 0.10000000
+  Sound reported at: (1, 1), prob: 0.10000000
+  Sound reported at: (2, 2), prob: 0.10000000
+  Sound reported at: (0, 1), prob: 0.03333333
+  Sound reported at: (1, 0), prob: 0.03333333
+  Sound reported at: (2, 1), prob: 0.03333333
+Current location: (2, 0)
+  Sound reported at: (2, 0), prob: 0.60000000
+  Sound reported at: (1, 0), prob: 0.15000000
+  Sound reported at: (2, 1), prob: 0.15000000
+  Sound reported at: (0, 0), prob: 0.03333333
+  Sound reported at: (1, 1), prob: 0.03333333
+  Sound reported at: (2, 2), prob: 0.03333333
+Current location: (2, 1)
+  Sound reported at: (2, 1), prob: 0.60000000
+  Sound reported at: (1, 1), prob: 0.10000000
+  Sound reported at: (2, 0), prob: 0.10000000
+  Sound reported at: (2, 2), prob: 0.10000000
+  Sound reported at: (0, 1), prob: 0.03333333
+  Sound reported at: (1, 0), prob: 0.03333333
+  Sound reported at: (1, 2), prob: 0.03333333
+Current location: (2, 2)
+  Sound reported at: (2, 2), prob: 0.60000000
+  Sound reported at: (1, 2), prob: 0.15000000
+  Sound reported at: (2, 1), prob: 0.15000000
+  Sound reported at: (0, 2), prob: 0.03333333
+  Sound reported at: (1, 1), prob: 0.03333333
+  Sound reported at: (2, 0), prob: 0.03333333
+
+Initial distribution of monkey's last location:
+  0.11111111  0.11111111  0.11111111
+  0.11111111  0.11111111  0.11111111
+  0.11111111  0.11111111  0.11111111
+
+Observation: Motion1: False, Motion2: False, Sound location: (0, 1)
+Monkey's predicted current location at time step: 0
+  Calculating total prob for current location (0, 0)
+    Probs being multiplied for last location (0, 0): 0.1111111111111111111111111111 0 0.1 0.95 0.15
+    Probs being multiplied for last location (0, 1): 0.1111111111111111111111111111 0.3333333333333333333333333333 0.1 0.95 0.15
+    Probs being multiplied for last location (0, 2): 0.1111111111111111111111111111 0 0.1 0.95 0.15
+    Probs being multiplied for last location (1, 0): 0.1111111111111111111111111111 0.3333333333333333333333333333 0.1 0.95 0.15
+    Probs being multiplied for last location (1, 1): 0.1111111111111111111111111111 0 0.1 0.95 0.15
+    Probs being multiplied for last location (1, 2): 0.1111111111111111111111111111 0 0.1 0.95 0.15
+    Probs being multiplied for last location (2, 0): 0.1111111111111111111111111111 0 0.1 0.95 0.15
+    Probs being multiplied for last location (2, 1): 0.1111111111111111111111111111 0 0.1 0.95 0.15
+    Probs being multiplied for last location (2, 2): 0.1111111111111111111111111111 0 0.1 0.95 0.15
+  Calculating total prob for current location (0, 1)
+    Probs being multiplied for last location (0, 0): 0.1111111111111111111111111111 0.5 0.2 0.95 0.6
+    Probs being multiplied for last location (0, 1): 0.1111111111111111111111111111 0 0.2 0.95 0.6
+    Probs being multiplied for last location (0, 2): 0.1111111111111111111111111111 0.5 0.2 0.95 0.6
+    Probs being multiplied for last location (1, 0): 0.1111111111111111111111111111 0 0.2 0.95 0.6
+    Probs being multiplied for last location (1, 1): 0.1111111111111111111111111111 0.25 0.2 0.95 0.6
+    Probs being multiplied for last location (1, 2): 0.1111111111111111111111111111 0 0.2 0.95 0.6
+    Probs being multiplied for last location (2, 0): 0.1111111111111111111111111111 0 0.2 0.95 0.6
+    Probs being multiplied for last location (2, 1): 0.1111111111111111111111111111 0 0.2 0.95 0.6
+    Probs being multiplied for last location (2, 2): 0.1111111111111111111111111111 0 0.2 0.95 0.6
+  Calculating total prob for current location (0, 2)
+    Probs being multiplied for last location (0, 0): 0.1111111111111111111111111111 0 0.3 0.3 0.15
+    Probs being multiplied for last location (0, 1): 0.1111111111111111111111111111 0.3333333333333333333333333333 0.3 0.3 0.15
+    Probs being multiplied for last location (0, 2): 0.1111111111111111111111111111 0 0.3 0.3 0.15
+    Probs being multiplied for last location (1, 0): 0.1111111111111111111111111111 0 0.3 0.3 0.15
+    Probs being multiplied for last location (1, 1): 0.1111111111111111111111111111 0 0.3 0.3 0.15
+    Probs being multiplied for last location (1, 2): 0.1111111111111111111111111111 0.3333333333333333333333333333 0.3 0.3 0.15
+    Probs being multiplied for last location (2, 0): 0.1111111111111111111111111111 0 0.3 0.3 0.15
+    Probs being multiplied for last location (2, 1): 0.1111111111111111111111111111 0 0.3 0.3 0.15
+    Probs being multiplied for last location (2, 2): 0.1111111111111111111111111111 0 0.3 0.3 0.15
+  Calculating total prob for current location (1, 0)
+    Probs being multiplied for last location (0, 0): 0.1111111111111111111111111111 0.5 0.2 0.95 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 1): 0.1111111111111111111111111111 0 0.2 0.95 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 2): 0.1111111111111111111111111111 0 0.2 0.95 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 0): 0.1111111111111111111111111111 0 0.2 0.95 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 1): 0.1111111111111111111111111111 0.25 0.2 0.95 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 2): 0.1111111111111111111111111111 0 0.2 0.95 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 0): 0.1111111111111111111111111111 0.5 0.2 0.95 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 1): 0.1111111111111111111111111111 0 0.2 0.95 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 2): 0.1111111111111111111111111111 0 0.2 0.95 0.03333333333333333333333333333
+  Calculating total prob for current location (1, 1)
+    Probs being multiplied for last location (0, 0): 0.1111111111111111111111111111 0 0.95 0.95 0.075
+    Probs being multiplied for last location (0, 1): 0.1111111111111111111111111111 0.3333333333333333333333333333 0.95 0.95 0.075
+    Probs being multiplied for last location (0, 2): 0.1111111111111111111111111111 0 0.95 0.95 0.075
+    Probs being multiplied for last location (1, 0): 0.1111111111111111111111111111 0.3333333333333333333333333333 0.95 0.95 0.075
+    Probs being multiplied for last location (1, 1): 0.1111111111111111111111111111 0 0.95 0.95 0.075
+    Probs being multiplied for last location (1, 2): 0.1111111111111111111111111111 0.3333333333333333333333333333 0.95 0.95 0.075
+    Probs being multiplied for last location (2, 0): 0.1111111111111111111111111111 0 0.95 0.95 0.075
+    Probs being multiplied for last location (2, 1): 0.1111111111111111111111111111 0.3333333333333333333333333333 0.95 0.95 0.075
+    Probs being multiplied for last location (2, 2): 0.1111111111111111111111111111 0 0.95 0.95 0.075
+  Calculating total prob for current location (1, 2)
+    Probs being multiplied for last location (0, 0): 0.1111111111111111111111111111 0 0.95 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 1): 0.1111111111111111111111111111 0 0.95 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 2): 0.1111111111111111111111111111 0.5 0.95 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 0): 0.1111111111111111111111111111 0 0.95 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 1): 0.1111111111111111111111111111 0.25 0.95 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 2): 0.1111111111111111111111111111 0 0.95 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 0): 0.1111111111111111111111111111 0 0.95 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 1): 0.1111111111111111111111111111 0 0.95 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 2): 0.1111111111111111111111111111 0.5 0.95 0.2 0.03333333333333333333333333333
+  Calculating total prob for current location (2, 0)
+    Probs being multiplied for last location (0, 0): 0.1111111111111111111111111111 0 0.3 0.3 0
+    Probs being multiplied for last location (0, 1): 0.1111111111111111111111111111 0 0.3 0.3 0
+    Probs being multiplied for last location (0, 2): 0.1111111111111111111111111111 0 0.3 0.3 0
+    Probs being multiplied for last location (1, 0): 0.1111111111111111111111111111 0.3333333333333333333333333333 0.3 0.3 0
+    Probs being multiplied for last location (1, 1): 0.1111111111111111111111111111 0 0.3 0.3 0
+    Probs being multiplied for last location (1, 2): 0.1111111111111111111111111111 0 0.3 0.3 0
+    Probs being multiplied for last location (2, 0): 0.1111111111111111111111111111 0 0.3 0.3 0
+    Probs being multiplied for last location (2, 1): 0.1111111111111111111111111111 0.3333333333333333333333333333 0.3 0.3 0
+    Probs being multiplied for last location (2, 2): 0.1111111111111111111111111111 0 0.3 0.3 0
+  Calculating total prob for current location (2, 1)
+    Probs being multiplied for last location (0, 0): 0.1111111111111111111111111111 0 0.95 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 1): 0.1111111111111111111111111111 0 0.95 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 2): 0.1111111111111111111111111111 0 0.95 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 0): 0.1111111111111111111111111111 0 0.95 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 1): 0.1111111111111111111111111111 0.25 0.95 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 2): 0.1111111111111111111111111111 0 0.95 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 0): 0.1111111111111111111111111111 0.5 0.95 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 1): 0.1111111111111111111111111111 0 0.95 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 2): 0.1111111111111111111111111111 0.5 0.95 0.2 0.03333333333333333333333333333
+  Calculating total prob for current location (2, 2)
+    Probs being multiplied for last location (0, 0): 0.1111111111111111111111111111 0 0.95 0.1 0
+    Probs being multiplied for last location (0, 1): 0.1111111111111111111111111111 0 0.95 0.1 0
+    Probs being multiplied for last location (0, 2): 0.1111111111111111111111111111 0 0.95 0.1 0
+    Probs being multiplied for last location (1, 0): 0.1111111111111111111111111111 0 0.95 0.1 0
+    Probs being multiplied for last location (1, 1): 0.1111111111111111111111111111 0 0.95 0.1 0
+    Probs being multiplied for last location (1, 2): 0.1111111111111111111111111111 0.3333333333333333333333333333 0.95 0.1 0
+    Probs being multiplied for last location (2, 0): 0.1111111111111111111111111111 0 0.95 0.1 0
+    Probs being multiplied for last location (2, 1): 0.1111111111111111111111111111 0.3333333333333333333333333333 0.95 0.1 0
+    Probs being multiplied for last location (2, 2): 0.1111111111111111111111111111 0 0.95 0.1 0
+
+Before normalization:
+  0.00105556  0.01583333  0.00100000
+  0.00087963  0.01002778  0.00087963
+  0.00000000  0.00087963  0.00000000
+
+After normalization:
+  0.03454545  0.51818182  0.03272727
+  0.02878788  0.32818182  0.02878788
+  0.00000000  0.02878788  0.00000000
+
+Observation: Motion1: False, Motion2: True, Sound location: (1, 1)
+Monkey's predicted current location at time step: 1
+  Calculating total prob for current location (0, 0)
+    Probs being multiplied for last location (0, 0): 0.03454545454545454545454545453 0 0.1 0.05 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 1): 0.5181818181818181818181818182 0.3333333333333333333333333333 0.1 0.05 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 2): 0.03272727272727272727272727273 0 0.1 0.05 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 0): 0.02878787878787878787878787878 0.3333333333333333333333333333 0.1 0.05 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 1): 0.3281818181818181818181818183 0 0.1 0.05 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 2): 0.02878787878787878787878787878 0 0.1 0.05 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 0): 0.0 0 0.1 0.05 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 1): 0.02878787878787878787878787878 0 0.1 0.05 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 2): 0.00 0 0.1 0.05 0.03333333333333333333333333333
+  Calculating total prob for current location (0, 1)
+    Probs being multiplied for last location (0, 0): 0.03454545454545454545454545453 0.5 0.2 0.05 0.1
+    Probs being multiplied for last location (0, 1): 0.5181818181818181818181818182 0 0.2 0.05 0.1
+    Probs being multiplied for last location (0, 2): 0.03272727272727272727272727273 0.5 0.2 0.05 0.1
+    Probs being multiplied for last location (1, 0): 0.02878787878787878787878787878 0 0.2 0.05 0.1
+    Probs being multiplied for last location (1, 1): 0.3281818181818181818181818183 0.25 0.2 0.05 0.1
+    Probs being multiplied for last location (1, 2): 0.02878787878787878787878787878 0 0.2 0.05 0.1
+    Probs being multiplied for last location (2, 0): 0.0 0 0.2 0.05 0.1
+    Probs being multiplied for last location (2, 1): 0.02878787878787878787878787878 0 0.2 0.05 0.1
+    Probs being multiplied for last location (2, 2): 0.00 0 0.2 0.05 0.1
+  Calculating total prob for current location (0, 2)
+    Probs being multiplied for last location (0, 0): 0.03454545454545454545454545453 0 0.3 0.7 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 1): 0.5181818181818181818181818182 0.3333333333333333333333333333 0.3 0.7 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 2): 0.03272727272727272727272727273 0 0.3 0.7 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 0): 0.02878787878787878787878787878 0 0.3 0.7 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 1): 0.3281818181818181818181818183 0 0.3 0.7 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 2): 0.02878787878787878787878787878 0.3333333333333333333333333333 0.3 0.7 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 0): 0.0 0 0.3 0.7 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 1): 0.02878787878787878787878787878 0 0.3 0.7 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 2): 0.00 0 0.3 0.7 0.03333333333333333333333333333
+  Calculating total prob for current location (1, 0)
+    Probs being multiplied for last location (0, 0): 0.03454545454545454545454545453 0.5 0.2 0.05 0.1
+    Probs being multiplied for last location (0, 1): 0.5181818181818181818181818182 0 0.2 0.05 0.1
+    Probs being multiplied for last location (0, 2): 0.03272727272727272727272727273 0 0.2 0.05 0.1
+    Probs being multiplied for last location (1, 0): 0.02878787878787878787878787878 0 0.2 0.05 0.1
+    Probs being multiplied for last location (1, 1): 0.3281818181818181818181818183 0.25 0.2 0.05 0.1
+    Probs being multiplied for last location (1, 2): 0.02878787878787878787878787878 0 0.2 0.05 0.1
+    Probs being multiplied for last location (2, 0): 0.0 0.5 0.2 0.05 0.1
+    Probs being multiplied for last location (2, 1): 0.02878787878787878787878787878 0 0.2 0.05 0.1
+    Probs being multiplied for last location (2, 2): 0.00 0 0.2 0.05 0.1
+  Calculating total prob for current location (1, 1)
+    Probs being multiplied for last location (0, 0): 0.03454545454545454545454545453 0 0.95 0.05 0.6
+    Probs being multiplied for last location (0, 1): 0.5181818181818181818181818182 0.3333333333333333333333333333 0.95 0.05 0.6
+    Probs being multiplied for last location (0, 2): 0.03272727272727272727272727273 0 0.95 0.05 0.6
+    Probs being multiplied for last location (1, 0): 0.02878787878787878787878787878 0.3333333333333333333333333333 0.95 0.05 0.6
+    Probs being multiplied for last location (1, 1): 0.3281818181818181818181818183 0 0.95 0.05 0.6
+    Probs being multiplied for last location (1, 2): 0.02878787878787878787878787878 0.3333333333333333333333333333 0.95 0.05 0.6
+    Probs being multiplied for last location (2, 0): 0.0 0 0.95 0.05 0.6
+    Probs being multiplied for last location (2, 1): 0.02878787878787878787878787878 0.3333333333333333333333333333 0.95 0.05 0.6
+    Probs being multiplied for last location (2, 2): 0.00 0 0.95 0.05 0.6
+  Calculating total prob for current location (1, 2)
+    Probs being multiplied for last location (0, 0): 0.03454545454545454545454545453 0 0.95 0.8 0.1
+    Probs being multiplied for last location (0, 1): 0.5181818181818181818181818182 0 0.95 0.8 0.1
+    Probs being multiplied for last location (0, 2): 0.03272727272727272727272727273 0.5 0.95 0.8 0.1
+    Probs being multiplied for last location (1, 0): 0.02878787878787878787878787878 0 0.95 0.8 0.1
+    Probs being multiplied for last location (1, 1): 0.3281818181818181818181818183 0.25 0.95 0.8 0.1
+    Probs being multiplied for last location (1, 2): 0.02878787878787878787878787878 0 0.95 0.8 0.1
+    Probs being multiplied for last location (2, 0): 0.0 0 0.95 0.8 0.1
+    Probs being multiplied for last location (2, 1): 0.02878787878787878787878787878 0 0.95 0.8 0.1
+    Probs being multiplied for last location (2, 2): 0.00 0.5 0.95 0.8 0.1
+  Calculating total prob for current location (2, 0)
+    Probs being multiplied for last location (0, 0): 0.03454545454545454545454545453 0 0.3 0.7 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 1): 0.5181818181818181818181818182 0 0.3 0.7 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 2): 0.03272727272727272727272727273 0 0.3 0.7 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 0): 0.02878787878787878787878787878 0.3333333333333333333333333333 0.3 0.7 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 1): 0.3281818181818181818181818183 0 0.3 0.7 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 2): 0.02878787878787878787878787878 0 0.3 0.7 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 0): 0.0 0 0.3 0.7 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 1): 0.02878787878787878787878787878 0.3333333333333333333333333333 0.3 0.7 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 2): 0.00 0 0.3 0.7 0.03333333333333333333333333333
+  Calculating total prob for current location (2, 1)
+    Probs being multiplied for last location (0, 0): 0.03454545454545454545454545453 0 0.95 0.8 0.1
+    Probs being multiplied for last location (0, 1): 0.5181818181818181818181818182 0 0.95 0.8 0.1
+    Probs being multiplied for last location (0, 2): 0.03272727272727272727272727273 0 0.95 0.8 0.1
+    Probs being multiplied for last location (1, 0): 0.02878787878787878787878787878 0 0.95 0.8 0.1
+    Probs being multiplied for last location (1, 1): 0.3281818181818181818181818183 0.25 0.95 0.8 0.1
+    Probs being multiplied for last location (1, 2): 0.02878787878787878787878787878 0 0.95 0.8 0.1
+    Probs being multiplied for last location (2, 0): 0.0 0.5 0.95 0.8 0.1
+    Probs being multiplied for last location (2, 1): 0.02878787878787878787878787878 0 0.95 0.8 0.1
+    Probs being multiplied for last location (2, 2): 0.00 0.5 0.95 0.8 0.1
+  Calculating total prob for current location (2, 2)
+    Probs being multiplied for last location (0, 0): 0.03454545454545454545454545453 0 0.95 0.9 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 1): 0.5181818181818181818181818182 0 0.95 0.9 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 2): 0.03272727272727272727272727273 0 0.95 0.9 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 0): 0.02878787878787878787878787878 0 0.95 0.9 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 1): 0.3281818181818181818181818183 0 0.95 0.9 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 2): 0.02878787878787878787878787878 0.3333333333333333333333333333 0.95 0.9 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 0): 0.0 0 0.95 0.9 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 1): 0.02878787878787878787878787878 0.3333333333333333333333333333 0.95 0.9 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 2): 0.00 0 0.95 0.9 0.03333333333333333333333333333
+
+Before normalization:
+  0.00003039  0.00011568  0.00127626
+  0.00009932  0.00574318  0.00747909
+  0.00013434  0.00623545  0.00054697
+
+After normalization:
+  0.00140287  0.00534063  0.05892068
+  0.00458518  0.26514307  0.34528405
+  0.00620218  0.28786961  0.02525172
+
+Observation: Motion1: False, Motion2: False, Sound location: (1, 1)
+Monkey's predicted current location at time step: 2
+  Calculating total prob for current location (0, 0)
+    Probs being multiplied for last location (0, 0): 0.001402873364447846919702015707 0 0.1 0.95 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 1): 0.005340633974406304769380831542 0.3333333333333333333333333333 0.1 0.95 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 2): 0.05892068130680957062748465969 0 0.1 0.95 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 0): 0.004585180838537436511236588182 0.3333333333333333333333333333 0.1 0.95 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 1): 0.2651430658806430678236809686 0 0.1 0.95 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 2): 0.3452840527107321755418161187 0 0.1 0.95 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 0): 0.006202176979664165329208911546 0 0.1 0.95 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 1): 0.2878696143846981879228536232 0 0.1 0.95 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 2): 0.02525172056006124455463628271 0 0.1 0.95 0.03333333333333333333333333333
+  Calculating total prob for current location (0, 1)
+    Probs being multiplied for last location (0, 0): 0.001402873364447846919702015707 0.5 0.2 0.95 0.1
+    Probs being multiplied for last location (0, 1): 0.005340633974406304769380831542 0 0.2 0.95 0.1
+    Probs being multiplied for last location (0, 2): 0.05892068130680957062748465969 0.5 0.2 0.95 0.1
+    Probs being multiplied for last location (1, 0): 0.004585180838537436511236588182 0 0.2 0.95 0.1
+    Probs being multiplied for last location (1, 1): 0.2651430658806430678236809686 0.25 0.2 0.95 0.1
+    Probs being multiplied for last location (1, 2): 0.3452840527107321755418161187 0 0.2 0.95 0.1
+    Probs being multiplied for last location (2, 0): 0.006202176979664165329208911546 0 0.2 0.95 0.1
+    Probs being multiplied for last location (2, 1): 0.2878696143846981879228536232 0 0.2 0.95 0.1
+    Probs being multiplied for last location (2, 2): 0.02525172056006124455463628271 0 0.2 0.95 0.1
+  Calculating total prob for current location (0, 2)
+    Probs being multiplied for last location (0, 0): 0.001402873364447846919702015707 0 0.3 0.3 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 1): 0.005340633974406304769380831542 0.3333333333333333333333333333 0.3 0.3 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 2): 0.05892068130680957062748465969 0 0.3 0.3 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 0): 0.004585180838537436511236588182 0 0.3 0.3 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 1): 0.2651430658806430678236809686 0 0.3 0.3 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 2): 0.3452840527107321755418161187 0.3333333333333333333333333333 0.3 0.3 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 0): 0.006202176979664165329208911546 0 0.3 0.3 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 1): 0.2878696143846981879228536232 0 0.3 0.3 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 2): 0.02525172056006124455463628271 0 0.3 0.3 0.03333333333333333333333333333
+  Calculating total prob for current location (1, 0)
+    Probs being multiplied for last location (0, 0): 0.001402873364447846919702015707 0.5 0.2 0.95 0.1
+    Probs being multiplied for last location (0, 1): 0.005340633974406304769380831542 0 0.2 0.95 0.1
+    Probs being multiplied for last location (0, 2): 0.05892068130680957062748465969 0 0.2 0.95 0.1
+    Probs being multiplied for last location (1, 0): 0.004585180838537436511236588182 0 0.2 0.95 0.1
+    Probs being multiplied for last location (1, 1): 0.2651430658806430678236809686 0.25 0.2 0.95 0.1
+    Probs being multiplied for last location (1, 2): 0.3452840527107321755418161187 0 0.2 0.95 0.1
+    Probs being multiplied for last location (2, 0): 0.006202176979664165329208911546 0.5 0.2 0.95 0.1
+    Probs being multiplied for last location (2, 1): 0.2878696143846981879228536232 0 0.2 0.95 0.1
+    Probs being multiplied for last location (2, 2): 0.02525172056006124455463628271 0 0.2 0.95 0.1
+  Calculating total prob for current location (1, 1)
+    Probs being multiplied for last location (0, 0): 0.001402873364447846919702015707 0 0.95 0.95 0.6
+    Probs being multiplied for last location (0, 1): 0.005340633974406304769380831542 0.3333333333333333333333333333 0.95 0.95 0.6
+    Probs being multiplied for last location (0, 2): 0.05892068130680957062748465969 0 0.95 0.95 0.6
+    Probs being multiplied for last location (1, 0): 0.004585180838537436511236588182 0.3333333333333333333333333333 0.95 0.95 0.6
+    Probs being multiplied for last location (1, 1): 0.2651430658806430678236809686 0 0.95 0.95 0.6
+    Probs being multiplied for last location (1, 2): 0.3452840527107321755418161187 0.3333333333333333333333333333 0.95 0.95 0.6
+    Probs being multiplied for last location (2, 0): 0.006202176979664165329208911546 0 0.95 0.95 0.6
+    Probs being multiplied for last location (2, 1): 0.2878696143846981879228536232 0.3333333333333333333333333333 0.95 0.95 0.6
+    Probs being multiplied for last location (2, 2): 0.02525172056006124455463628271 0 0.95 0.95 0.6
+  Calculating total prob for current location (1, 2)
+    Probs being multiplied for last location (0, 0): 0.001402873364447846919702015707 0 0.95 0.2 0.1
+    Probs being multiplied for last location (0, 1): 0.005340633974406304769380831542 0 0.95 0.2 0.1
+    Probs being multiplied for last location (0, 2): 0.05892068130680957062748465969 0.5 0.95 0.2 0.1
+    Probs being multiplied for last location (1, 0): 0.004585180838537436511236588182 0 0.95 0.2 0.1
+    Probs being multiplied for last location (1, 1): 0.2651430658806430678236809686 0.25 0.95 0.2 0.1
+    Probs being multiplied for last location (1, 2): 0.3452840527107321755418161187 0 0.95 0.2 0.1
+    Probs being multiplied for last location (2, 0): 0.006202176979664165329208911546 0 0.95 0.2 0.1
+    Probs being multiplied for last location (2, 1): 0.2878696143846981879228536232 0 0.95 0.2 0.1
+    Probs being multiplied for last location (2, 2): 0.02525172056006124455463628271 0.5 0.95 0.2 0.1
+  Calculating total prob for current location (2, 0)
+    Probs being multiplied for last location (0, 0): 0.001402873364447846919702015707 0 0.3 0.3 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 1): 0.005340633974406304769380831542 0 0.3 0.3 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 2): 0.05892068130680957062748465969 0 0.3 0.3 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 0): 0.004585180838537436511236588182 0.3333333333333333333333333333 0.3 0.3 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 1): 0.2651430658806430678236809686 0 0.3 0.3 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 2): 0.3452840527107321755418161187 0 0.3 0.3 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 0): 0.006202176979664165329208911546 0 0.3 0.3 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 1): 0.2878696143846981879228536232 0.3333333333333333333333333333 0.3 0.3 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 2): 0.02525172056006124455463628271 0 0.3 0.3 0.03333333333333333333333333333
+  Calculating total prob for current location (2, 1)
+    Probs being multiplied for last location (0, 0): 0.001402873364447846919702015707 0 0.95 0.2 0.1
+    Probs being multiplied for last location (0, 1): 0.005340633974406304769380831542 0 0.95 0.2 0.1
+    Probs being multiplied for last location (0, 2): 0.05892068130680957062748465969 0 0.95 0.2 0.1
+    Probs being multiplied for last location (1, 0): 0.004585180838537436511236588182 0 0.95 0.2 0.1
+    Probs being multiplied for last location (1, 1): 0.2651430658806430678236809686 0.25 0.95 0.2 0.1
+    Probs being multiplied for last location (1, 2): 0.3452840527107321755418161187 0 0.95 0.2 0.1
+    Probs being multiplied for last location (2, 0): 0.006202176979664165329208911546 0.5 0.95 0.2 0.1
+    Probs being multiplied for last location (2, 1): 0.2878696143846981879228536232 0 0.95 0.2 0.1
+    Probs being multiplied for last location (2, 2): 0.02525172056006124455463628271 0.5 0.95 0.2 0.1
+  Calculating total prob for current location (2, 2)
+    Probs being multiplied for last location (0, 0): 0.001402873364447846919702015707 0 0.95 0.1 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 1): 0.005340633974406304769380831542 0 0.95 0.1 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 2): 0.05892068130680957062748465969 0 0.95 0.1 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 0): 0.004585180838537436511236588182 0 0.95 0.1 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 1): 0.2651430658806430678236809686 0 0.95 0.1 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 2): 0.3452840527107321755418161187 0.3333333333333333333333333333 0.95 0.1 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 0): 0.006202176979664165329208911546 0 0.95 0.1 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 1): 0.2878696143846981879228536232 0.3333333333333333333333333333 0.95 0.1 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 2): 0.02525172056006124455463628271 0 0.95 0.1 0.03333333333333333333333333333
+
+Before normalization:
+  0.00001048  0.00183250  0.00035062
+  0.00133168  0.11607585  0.00205907
+  0.00029245  0.00155824  0.00066833
+
+After normalization:
+  0.00008437  0.01475692  0.00282354
+  0.01072384  0.93474451  0.01658142
+  0.00235510  0.01254833  0.00538197
+
+Observation: Motion1: True, Motion2: False, Sound location: (1, 0)
+Monkey's predicted current location at time step: 3
+  Calculating total prob for current location (0, 0)
+    Probs being multiplied for last location (0, 0): 0.00008437199723422828694740699511 0 0.9 0.95 0.15
+    Probs being multiplied for last location (0, 1): 0.01475692393486260251357263819 0.3333333333333333333333333333 0.9 0.95 0.15
+    Probs being multiplied for last location (0, 2): 0.002823537474595066204995381774 0 0.9 0.95 0.15
+    Probs being multiplied for last location (1, 0): 0.01072383544127718693665747507 0.3333333333333333333333333333 0.9 0.95 0.15
+    Probs being multiplied for last location (1, 1): 0.9347445142632987757908290480 0 0.9 0.95 0.15
+    Probs being multiplied for last location (1, 2): 0.01658141634862743336979616437 0 0.9 0.95 0.15
+    Probs being multiplied for last location (2, 0): 0.002355102493622655544538297160 0 0.9 0.95 0.15
+    Probs being multiplied for last location (2, 1): 0.01254832785504201779288100125 0 0.9 0.95 0.15
+    Probs being multiplied for last location (2, 2): 0.005381970191440033559782587437 0 0.9 0.95 0.15
+  Calculating total prob for current location (0, 1)
+    Probs being multiplied for last location (0, 0): 0.00008437199723422828694740699511 0.5 0.8 0.95 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 1): 0.01475692393486260251357263819 0 0.8 0.95 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 2): 0.002823537474595066204995381774 0.5 0.8 0.95 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 0): 0.01072383544127718693665747507 0 0.8 0.95 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 1): 0.9347445142632987757908290480 0.25 0.8 0.95 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 2): 0.01658141634862743336979616437 0 0.8 0.95 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 0): 0.002355102493622655544538297160 0 0.8 0.95 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 1): 0.01254832785504201779288100125 0 0.8 0.95 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 2): 0.005381970191440033559782587437 0 0.8 0.95 0.03333333333333333333333333333
+  Calculating total prob for current location (0, 2)
+    Probs being multiplied for last location (0, 0): 0.00008437199723422828694740699511 0 0.7 0.3 0
+    Probs being multiplied for last location (0, 1): 0.01475692393486260251357263819 0.3333333333333333333333333333 0.7 0.3 0
+    Probs being multiplied for last location (0, 2): 0.002823537474595066204995381774 0 0.7 0.3 0
+    Probs being multiplied for last location (1, 0): 0.01072383544127718693665747507 0 0.7 0.3 0
+    Probs being multiplied for last location (1, 1): 0.9347445142632987757908290480 0 0.7 0.3 0
+    Probs being multiplied for last location (1, 2): 0.01658141634862743336979616437 0.3333333333333333333333333333 0.7 0.3 0
+    Probs being multiplied for last location (2, 0): 0.002355102493622655544538297160 0 0.7 0.3 0
+    Probs being multiplied for last location (2, 1): 0.01254832785504201779288100125 0 0.7 0.3 0
+    Probs being multiplied for last location (2, 2): 0.005381970191440033559782587437 0 0.7 0.3 0
+  Calculating total prob for current location (1, 0)
+    Probs being multiplied for last location (0, 0): 0.00008437199723422828694740699511 0.5 0.8 0.95 0.6
+    Probs being multiplied for last location (0, 1): 0.01475692393486260251357263819 0 0.8 0.95 0.6
+    Probs being multiplied for last location (0, 2): 0.002823537474595066204995381774 0 0.8 0.95 0.6
+    Probs being multiplied for last location (1, 0): 0.01072383544127718693665747507 0 0.8 0.95 0.6
+    Probs being multiplied for last location (1, 1): 0.9347445142632987757908290480 0.25 0.8 0.95 0.6
+    Probs being multiplied for last location (1, 2): 0.01658141634862743336979616437 0 0.8 0.95 0.6
+    Probs being multiplied for last location (2, 0): 0.002355102493622655544538297160 0.5 0.8 0.95 0.6
+    Probs being multiplied for last location (2, 1): 0.01254832785504201779288100125 0 0.8 0.95 0.6
+    Probs being multiplied for last location (2, 2): 0.005381970191440033559782587437 0 0.8 0.95 0.6
+  Calculating total prob for current location (1, 1)
+    Probs being multiplied for last location (0, 0): 0.00008437199723422828694740699511 0 0.05 0.95 0.075
+    Probs being multiplied for last location (0, 1): 0.01475692393486260251357263819 0.3333333333333333333333333333 0.05 0.95 0.075
+    Probs being multiplied for last location (0, 2): 0.002823537474595066204995381774 0 0.05 0.95 0.075
+    Probs being multiplied for last location (1, 0): 0.01072383544127718693665747507 0.3333333333333333333333333333 0.05 0.95 0.075
+    Probs being multiplied for last location (1, 1): 0.9347445142632987757908290480 0 0.05 0.95 0.075
+    Probs being multiplied for last location (1, 2): 0.01658141634862743336979616437 0.3333333333333333333333333333 0.05 0.95 0.075
+    Probs being multiplied for last location (2, 0): 0.002355102493622655544538297160 0 0.05 0.95 0.075
+    Probs being multiplied for last location (2, 1): 0.01254832785504201779288100125 0.3333333333333333333333333333 0.05 0.95 0.075
+    Probs being multiplied for last location (2, 2): 0.005381970191440033559782587437 0 0.05 0.95 0.075
+  Calculating total prob for current location (1, 2)
+    Probs being multiplied for last location (0, 0): 0.00008437199723422828694740699511 0 0.05 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 1): 0.01475692393486260251357263819 0 0.05 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 2): 0.002823537474595066204995381774 0.5 0.05 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 0): 0.01072383544127718693665747507 0 0.05 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 1): 0.9347445142632987757908290480 0.25 0.05 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 2): 0.01658141634862743336979616437 0 0.05 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 0): 0.002355102493622655544538297160 0 0.05 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 1): 0.01254832785504201779288100125 0 0.05 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 2): 0.005381970191440033559782587437 0.5 0.05 0.2 0.03333333333333333333333333333
+  Calculating total prob for current location (2, 0)
+    Probs being multiplied for last location (0, 0): 0.00008437199723422828694740699511 0 0.7 0.3 0.15
+    Probs being multiplied for last location (0, 1): 0.01475692393486260251357263819 0 0.7 0.3 0.15
+    Probs being multiplied for last location (0, 2): 0.002823537474595066204995381774 0 0.7 0.3 0.15
+    Probs being multiplied for last location (1, 0): 0.01072383544127718693665747507 0.3333333333333333333333333333 0.7 0.3 0.15
+    Probs being multiplied for last location (1, 1): 0.9347445142632987757908290480 0 0.7 0.3 0.15
+    Probs being multiplied for last location (1, 2): 0.01658141634862743336979616437 0 0.7 0.3 0.15
+    Probs being multiplied for last location (2, 0): 0.002355102493622655544538297160 0 0.7 0.3 0.15
+    Probs being multiplied for last location (2, 1): 0.01254832785504201779288100125 0.3333333333333333333333333333 0.7 0.3 0.15
+    Probs being multiplied for last location (2, 2): 0.005381970191440033559782587437 0 0.7 0.3 0.15
+  Calculating total prob for current location (2, 1)
+    Probs being multiplied for last location (0, 0): 0.00008437199723422828694740699511 0 0.05 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 1): 0.01475692393486260251357263819 0 0.05 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 2): 0.002823537474595066204995381774 0 0.05 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 0): 0.01072383544127718693665747507 0 0.05 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 1): 0.9347445142632987757908290480 0.25 0.05 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 2): 0.01658141634862743336979616437 0 0.05 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 0): 0.002355102493622655544538297160 0.5 0.05 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 1): 0.01254832785504201779288100125 0 0.05 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 2): 0.005381970191440033559782587437 0.5 0.05 0.2 0.03333333333333333333333333333
+  Calculating total prob for current location (2, 2)
+    Probs being multiplied for last location (0, 0): 0.00008437199723422828694740699511 0 0.05 0.1 0
+    Probs being multiplied for last location (0, 1): 0.01475692393486260251357263819 0 0.05 0.1 0
+    Probs being multiplied for last location (0, 2): 0.002823537474595066204995381774 0 0.05 0.1 0
+    Probs being multiplied for last location (1, 0): 0.01072383544127718693665747507 0 0.05 0.1 0
+    Probs being multiplied for last location (1, 1): 0.9347445142632987757908290480 0 0.05 0.1 0
+    Probs being multiplied for last location (1, 2): 0.01658141634862743336979616437 0.3333333333333333333333333333 0.05 0.1 0
+    Probs being multiplied for last location (2, 0): 0.002355102493622655544538297160 0 0.05 0.1 0
+    Probs being multiplied for last location (2, 1): 0.01254832785504201779288100125 0.3333333333333333333333333333 0.05 0.1 0
+    Probs being multiplied for last location (2, 2): 0.005381970191440033559782587437 0 0.05 0.1 0
+
+Before normalization:
+  0.00108930  0.00595688  0.00000000
+  0.10711707  0.00006485  0.00007926
+  0.00024436  0.00007918  0.00000000
+
+After normalization:
+  0.00950269  0.05196576  0.00000000
+  0.93445189  0.00056573  0.00069146
+  0.00213169  0.00069078  0.00000000
+
+Observation: Motion1: False, Motion2: False, Sound location: (1, 1)
+Monkey's predicted current location at time step: 4
+  Calculating total prob for current location (0, 0)
+    Probs being multiplied for last location (0, 0): 0.009502693615308445072045808756 0 0.1 0.95 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 1): 0.05196575561185288371788917876 0.3333333333333333333333333333 0.1 0.95 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 2): 0.000000 0 0.1 0.95 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 0): 0.9344518874722362367252333066 0.3333333333333333333333333333 0.1 0.95 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 1): 0.0005657284777506961190949215438 0 0.1 0.95 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 2): 0.0006914623411558101998660873054 0 0.1 0.95 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 0): 0.002131691217690056321411606907 0 0.1 0.95 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 1): 0.0006907812640058718444590902936 0 0.1 0.95 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 2): 0E-7 0 0.1 0.95 0.03333333333333333333333333333
+  Calculating total prob for current location (0, 1)
+    Probs being multiplied for last location (0, 0): 0.009502693615308445072045808756 0.5 0.2 0.95 0.1
+    Probs being multiplied for last location (0, 1): 0.05196575561185288371788917876 0 0.2 0.95 0.1
+    Probs being multiplied for last location (0, 2): 0.000000 0.5 0.2 0.95 0.1
+    Probs being multiplied for last location (1, 0): 0.9344518874722362367252333066 0 0.2 0.95 0.1
+    Probs being multiplied for last location (1, 1): 0.0005657284777506961190949215438 0.25 0.2 0.95 0.1
+    Probs being multiplied for last location (1, 2): 0.0006914623411558101998660873054 0 0.2 0.95 0.1
+    Probs being multiplied for last location (2, 0): 0.002131691217690056321411606907 0 0.2 0.95 0.1
+    Probs being multiplied for last location (2, 1): 0.0006907812640058718444590902936 0 0.2 0.95 0.1
+    Probs being multiplied for last location (2, 2): 0E-7 0 0.2 0.95 0.1
+  Calculating total prob for current location (0, 2)
+    Probs being multiplied for last location (0, 0): 0.009502693615308445072045808756 0 0.3 0.3 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 1): 0.05196575561185288371788917876 0.3333333333333333333333333333 0.3 0.3 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 2): 0.000000 0 0.3 0.3 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 0): 0.9344518874722362367252333066 0 0.3 0.3 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 1): 0.0005657284777506961190949215438 0 0.3 0.3 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 2): 0.0006914623411558101998660873054 0.3333333333333333333333333333 0.3 0.3 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 0): 0.002131691217690056321411606907 0 0.3 0.3 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 1): 0.0006907812640058718444590902936 0 0.3 0.3 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 2): 0E-7 0 0.3 0.3 0.03333333333333333333333333333
+  Calculating total prob for current location (1, 0)
+    Probs being multiplied for last location (0, 0): 0.009502693615308445072045808756 0.5 0.2 0.95 0.1
+    Probs being multiplied for last location (0, 1): 0.05196575561185288371788917876 0 0.2 0.95 0.1
+    Probs being multiplied for last location (0, 2): 0.000000 0 0.2 0.95 0.1
+    Probs being multiplied for last location (1, 0): 0.9344518874722362367252333066 0 0.2 0.95 0.1
+    Probs being multiplied for last location (1, 1): 0.0005657284777506961190949215438 0.25 0.2 0.95 0.1
+    Probs being multiplied for last location (1, 2): 0.0006914623411558101998660873054 0 0.2 0.95 0.1
+    Probs being multiplied for last location (2, 0): 0.002131691217690056321411606907 0.5 0.2 0.95 0.1
+    Probs being multiplied for last location (2, 1): 0.0006907812640058718444590902936 0 0.2 0.95 0.1
+    Probs being multiplied for last location (2, 2): 0E-7 0 0.2 0.95 0.1
+  Calculating total prob for current location (1, 1)
+    Probs being multiplied for last location (0, 0): 0.009502693615308445072045808756 0 0.95 0.95 0.6
+    Probs being multiplied for last location (0, 1): 0.05196575561185288371788917876 0.3333333333333333333333333333 0.95 0.95 0.6
+    Probs being multiplied for last location (0, 2): 0.000000 0 0.95 0.95 0.6
+    Probs being multiplied for last location (1, 0): 0.9344518874722362367252333066 0.3333333333333333333333333333 0.95 0.95 0.6
+    Probs being multiplied for last location (1, 1): 0.0005657284777506961190949215438 0 0.95 0.95 0.6
+    Probs being multiplied for last location (1, 2): 0.0006914623411558101998660873054 0.3333333333333333333333333333 0.95 0.95 0.6
+    Probs being multiplied for last location (2, 0): 0.002131691217690056321411606907 0 0.95 0.95 0.6
+    Probs being multiplied for last location (2, 1): 0.0006907812640058718444590902936 0.3333333333333333333333333333 0.95 0.95 0.6
+    Probs being multiplied for last location (2, 2): 0E-7 0 0.95 0.95 0.6
+  Calculating total prob for current location (1, 2)
+    Probs being multiplied for last location (0, 0): 0.009502693615308445072045808756 0 0.95 0.2 0.1
+    Probs being multiplied for last location (0, 1): 0.05196575561185288371788917876 0 0.95 0.2 0.1
+    Probs being multiplied for last location (0, 2): 0.000000 0.5 0.95 0.2 0.1
+    Probs being multiplied for last location (1, 0): 0.9344518874722362367252333066 0 0.95 0.2 0.1
+    Probs being multiplied for last location (1, 1): 0.0005657284777506961190949215438 0.25 0.95 0.2 0.1
+    Probs being multiplied for last location (1, 2): 0.0006914623411558101998660873054 0 0.95 0.2 0.1
+    Probs being multiplied for last location (2, 0): 0.002131691217690056321411606907 0 0.95 0.2 0.1
+    Probs being multiplied for last location (2, 1): 0.0006907812640058718444590902936 0 0.95 0.2 0.1
+    Probs being multiplied for last location (2, 2): 0E-7 0.5 0.95 0.2 0.1
+  Calculating total prob for current location (2, 0)
+    Probs being multiplied for last location (0, 0): 0.009502693615308445072045808756 0 0.3 0.3 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 1): 0.05196575561185288371788917876 0 0.3 0.3 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 2): 0.000000 0 0.3 0.3 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 0): 0.9344518874722362367252333066 0.3333333333333333333333333333 0.3 0.3 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 1): 0.0005657284777506961190949215438 0 0.3 0.3 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 2): 0.0006914623411558101998660873054 0 0.3 0.3 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 0): 0.002131691217690056321411606907 0 0.3 0.3 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 1): 0.0006907812640058718444590902936 0.3333333333333333333333333333 0.3 0.3 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 2): 0E-7 0 0.3 0.3 0.03333333333333333333333333333
+  Calculating total prob for current location (2, 1)
+    Probs being multiplied for last location (0, 0): 0.009502693615308445072045808756 0 0.95 0.2 0.1
+    Probs being multiplied for last location (0, 1): 0.05196575561185288371788917876 0 0.95 0.2 0.1
+    Probs being multiplied for last location (0, 2): 0.000000 0 0.95 0.2 0.1
+    Probs being multiplied for last location (1, 0): 0.9344518874722362367252333066 0 0.95 0.2 0.1
+    Probs being multiplied for last location (1, 1): 0.0005657284777506961190949215438 0.25 0.95 0.2 0.1
+    Probs being multiplied for last location (1, 2): 0.0006914623411558101998660873054 0 0.95 0.2 0.1
+    Probs being multiplied for last location (2, 0): 0.002131691217690056321411606907 0.5 0.95 0.2 0.1
+    Probs being multiplied for last location (2, 1): 0.0006907812640058718444590902936 0 0.95 0.2 0.1
+    Probs being multiplied for last location (2, 2): 0E-7 0.5 0.95 0.2 0.1
+  Calculating total prob for current location (2, 2)
+    Probs being multiplied for last location (0, 0): 0.009502693615308445072045808756 0 0.95 0.1 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 1): 0.05196575561185288371788917876 0 0.95 0.1 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 2): 0.000000 0 0.95 0.1 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 0): 0.9344518874722362367252333066 0 0.95 0.1 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 1): 0.0005657284777506961190949215438 0 0.95 0.1 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 2): 0.0006914623411558101998660873054 0.3333333333333333333333333333 0.95 0.1 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 0): 0.002131691217690056321411606907 0 0.95 0.1 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 1): 0.0006907812640058718444590902936 0.3333333333333333333333333333 0.95 0.1 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 2): 0E-7 0 0.95 0.1 0.03333333333333333333333333333
+
+Before normalization:
+  0.00104122  0.00009296  0.00005266
+  0.00011321  0.17829788  0.00000269
+  0.00093514  0.00002294  0.00000146
+
+After normalization:
+  0.00576660  0.00051486  0.00029163
+  0.00062701  0.98747077  0.00001488
+  0.00517912  0.00012704  0.00000808
+
+Observation: Motion1: False, Motion2: False, Sound location: (1, 0)
+Monkey's predicted current location at time step: 5
+  Calculating total prob for current location (0, 0)
+    Probs being multiplied for last location (0, 0): 0.005766602264908280774197710469 0 0.1 0.95 0.15
+    Probs being multiplied for last location (0, 1): 0.0005148577626613391385387715967 0.3333333333333333333333333333 0.1 0.95 0.15
+    Probs being multiplied for last location (0, 2): 0.0002916325404958666165160013624 0 0.1 0.95 0.15
+    Probs being multiplied for last location (1, 0): 0.0006270146562568827793898516246 0.3333333333333333333333333333 0.1 0.95 0.15
+    Probs being multiplied for last location (1, 1): 0.9874707703669356228164014778 0 0.1 0.95 0.15
+    Probs being multiplied for last location (1, 2): 0.00001488263125458896965673875440 0 0.1 0.95 0.15
+    Probs being multiplied for last location (2, 0): 0.005179119649902668689946056685 0 0.1 0.95 0.15
+    Probs being multiplied for last location (2, 1): 0.0001270395248501326105078187824 0 0.1 0.95 0.15
+    Probs being multiplied for last location (2, 2): 0.000008080602734617604845573022460 0 0.1 0.95 0.15
+  Calculating total prob for current location (0, 1)
+    Probs being multiplied for last location (0, 0): 0.005766602264908280774197710469 0.5 0.2 0.95 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 1): 0.0005148577626613391385387715967 0 0.2 0.95 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 2): 0.0002916325404958666165160013624 0.5 0.2 0.95 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 0): 0.0006270146562568827793898516246 0 0.2 0.95 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 1): 0.9874707703669356228164014778 0.25 0.2 0.95 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 2): 0.00001488263125458896965673875440 0 0.2 0.95 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 0): 0.005179119649902668689946056685 0 0.2 0.95 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 1): 0.0001270395248501326105078187824 0 0.2 0.95 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 2): 0.000008080602734617604845573022460 0 0.2 0.95 0.03333333333333333333333333333
+  Calculating total prob for current location (0, 2)
+    Probs being multiplied for last location (0, 0): 0.005766602264908280774197710469 0 0.3 0.3 0
+    Probs being multiplied for last location (0, 1): 0.0005148577626613391385387715967 0.3333333333333333333333333333 0.3 0.3 0
+    Probs being multiplied for last location (0, 2): 0.0002916325404958666165160013624 0 0.3 0.3 0
+    Probs being multiplied for last location (1, 0): 0.0006270146562568827793898516246 0 0.3 0.3 0
+    Probs being multiplied for last location (1, 1): 0.9874707703669356228164014778 0 0.3 0.3 0
+    Probs being multiplied for last location (1, 2): 0.00001488263125458896965673875440 0.3333333333333333333333333333 0.3 0.3 0
+    Probs being multiplied for last location (2, 0): 0.005179119649902668689946056685 0 0.3 0.3 0
+    Probs being multiplied for last location (2, 1): 0.0001270395248501326105078187824 0 0.3 0.3 0
+    Probs being multiplied for last location (2, 2): 0.000008080602734617604845573022460 0 0.3 0.3 0
+  Calculating total prob for current location (1, 0)
+    Probs being multiplied for last location (0, 0): 0.005766602264908280774197710469 0.5 0.2 0.95 0.6
+    Probs being multiplied for last location (0, 1): 0.0005148577626613391385387715967 0 0.2 0.95 0.6
+    Probs being multiplied for last location (0, 2): 0.0002916325404958666165160013624 0 0.2 0.95 0.6
+    Probs being multiplied for last location (1, 0): 0.0006270146562568827793898516246 0 0.2 0.95 0.6
+    Probs being multiplied for last location (1, 1): 0.9874707703669356228164014778 0.25 0.2 0.95 0.6
+    Probs being multiplied for last location (1, 2): 0.00001488263125458896965673875440 0 0.2 0.95 0.6
+    Probs being multiplied for last location (2, 0): 0.005179119649902668689946056685 0.5 0.2 0.95 0.6
+    Probs being multiplied for last location (2, 1): 0.0001270395248501326105078187824 0 0.2 0.95 0.6
+    Probs being multiplied for last location (2, 2): 0.000008080602734617604845573022460 0 0.2 0.95 0.6
+  Calculating total prob for current location (1, 1)
+    Probs being multiplied for last location (0, 0): 0.005766602264908280774197710469 0 0.95 0.95 0.075
+    Probs being multiplied for last location (0, 1): 0.0005148577626613391385387715967 0.3333333333333333333333333333 0.95 0.95 0.075
+    Probs being multiplied for last location (0, 2): 0.0002916325404958666165160013624 0 0.95 0.95 0.075
+    Probs being multiplied for last location (1, 0): 0.0006270146562568827793898516246 0.3333333333333333333333333333 0.95 0.95 0.075
+    Probs being multiplied for last location (1, 1): 0.9874707703669356228164014778 0 0.95 0.95 0.075
+    Probs being multiplied for last location (1, 2): 0.00001488263125458896965673875440 0.3333333333333333333333333333 0.95 0.95 0.075
+    Probs being multiplied for last location (2, 0): 0.005179119649902668689946056685 0 0.95 0.95 0.075
+    Probs being multiplied for last location (2, 1): 0.0001270395248501326105078187824 0.3333333333333333333333333333 0.95 0.95 0.075
+    Probs being multiplied for last location (2, 2): 0.000008080602734617604845573022460 0 0.95 0.95 0.075
+  Calculating total prob for current location (1, 2)
+    Probs being multiplied for last location (0, 0): 0.005766602264908280774197710469 0 0.95 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 1): 0.0005148577626613391385387715967 0 0.95 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 2): 0.0002916325404958666165160013624 0.5 0.95 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 0): 0.0006270146562568827793898516246 0 0.95 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 1): 0.9874707703669356228164014778 0.25 0.95 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 2): 0.00001488263125458896965673875440 0 0.95 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 0): 0.005179119649902668689946056685 0 0.95 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 1): 0.0001270395248501326105078187824 0 0.95 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 2): 0.000008080602734617604845573022460 0.5 0.95 0.2 0.03333333333333333333333333333
+  Calculating total prob for current location (2, 0)
+    Probs being multiplied for last location (0, 0): 0.005766602264908280774197710469 0 0.3 0.3 0.15
+    Probs being multiplied for last location (0, 1): 0.0005148577626613391385387715967 0 0.3 0.3 0.15
+    Probs being multiplied for last location (0, 2): 0.0002916325404958666165160013624 0 0.3 0.3 0.15
+    Probs being multiplied for last location (1, 0): 0.0006270146562568827793898516246 0.3333333333333333333333333333 0.3 0.3 0.15
+    Probs being multiplied for last location (1, 1): 0.9874707703669356228164014778 0 0.3 0.3 0.15
+    Probs being multiplied for last location (1, 2): 0.00001488263125458896965673875440 0 0.3 0.3 0.15
+    Probs being multiplied for last location (2, 0): 0.005179119649902668689946056685 0 0.3 0.3 0.15
+    Probs being multiplied for last location (2, 1): 0.0001270395248501326105078187824 0.3333333333333333333333333333 0.3 0.3 0.15
+    Probs being multiplied for last location (2, 2): 0.000008080602734617604845573022460 0 0.3 0.3 0.15
+  Calculating total prob for current location (2, 1)
+    Probs being multiplied for last location (0, 0): 0.005766602264908280774197710469 0 0.95 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 1): 0.0005148577626613391385387715967 0 0.95 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (0, 2): 0.0002916325404958666165160013624 0 0.95 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 0): 0.0006270146562568827793898516246 0 0.95 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 1): 0.9874707703669356228164014778 0.25 0.95 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (1, 2): 0.00001488263125458896965673875440 0 0.95 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 0): 0.005179119649902668689946056685 0.5 0.95 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 1): 0.0001270395248501326105078187824 0 0.95 0.2 0.03333333333333333333333333333
+    Probs being multiplied for last location (2, 2): 0.000008080602734617604845573022460 0.5 0.95 0.2 0.03333333333333333333333333333
+  Calculating total prob for current location (2, 2)
+    Probs being multiplied for last location (0, 0): 0.005766602264908280774197710469 0 0.95 0.1 0
+    Probs being multiplied for last location (0, 1): 0.0005148577626613391385387715967 0 0.95 0.1 0
+    Probs being multiplied for last location (0, 2): 0.0002916325404958666165160013624 0 0.95 0.1 0
+    Probs being multiplied for last location (1, 0): 0.0006270146562568827793898516246 0 0.95 0.1 0
+    Probs being multiplied for last location (1, 1): 0.9874707703669356228164014778 0 0.95 0.1 0
+    Probs being multiplied for last location (1, 2): 0.00001488263125458896965673875440 0.3333333333333333333333333333 0.95 0.1 0
+    Probs being multiplied for last location (2, 0): 0.005179119649902668689946056685 0 0.95 0.1 0
+    Probs being multiplied for last location (2, 1): 0.0001270395248501326105078187824 0.3333333333333333333333333333 0.95 0.1 0
+    Probs being multiplied for last location (2, 2): 0.000008080602734617604845573022460 0 0.95 0.1 0
+
+Before normalization:
+  0.00000542  0.00158268  0.00000000
+  0.02876682  0.00002897  0.00156444
+  0.00000339  0.00157992  0.00000000
+
+After normalization:
+  0.00016175  0.04719958  0.00000000
+  0.85790057  0.00086383  0.04665575
+  0.00010120  0.04711732  0.00000000
+
+
+
