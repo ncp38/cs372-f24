@@ -84,23 +84,23 @@ Thu, Oct 3
 
 Tue, Oct 8
 : **Bayesian Networks III**  
-: [**Homework 4**](homework/hw4){: .label .label-hw } due Oct. 15
 : [**Project 3**](projects/proj3){: .label .label-proj }  due Oct. 24
   
 Thu, Oct 10
 : **Statistical Inference I**  
-<!--- Slides --->
+: [**Slides**](lectures/statinf/stat-inf-day1-ml-map.pdf)  
+: [**Homework 4**](homework/hw4){: .label .label-hw } due Oct. 24
 : **Reading**{: .label .label-reading} (use slides)
 
 Tue, Oct 15
 : **Statistical Inference II**
-<!--- Slides --->
+: [**Slides**](lectures/statinf/stat-inf-day2-combining-evidence.pdf) 
 : [**Paper 2**](papers/paper2){: .label .label-paper } due Dec. 5
 : **Reading**{: .label .label-reading} (use slides)
   
 Thu, Oct 17
 : **Naive Bayes Classifiers**  
-<!--- Slides --->
+: [**Slides**](lectures/statinf/stat-inf-day3-naive-bayes.pdf)  
 : [**Bonus: Homework 5**](homework/hw5){: .label .label-hw } +1 point due Oct. 24!
 : **Reading**{: .label .label-reading} (use slides)
 

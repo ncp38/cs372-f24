@@ -12,7 +12,7 @@ parent: Projects
 1. TOC
 {:toc}
 
-In 1976, a group of rhesus monkeys escaped from the Memphis Zoo. They crossed North Parkway and entered the Rhodes College campus, mostly settling on the roof of Burrow Hall, which was then the library. Eventually, the monkeys were recaptured after eating some tranquilizer-laced popcorn.  Evidence: [video](https://youtu.be/rr4qA8oDFDY), [photos](https://dlynx.rhodes.edu/jspui/simple-search?query=monkey+capture).
+In 1976, a group of rhesus monkeys escaped from the Memphis Zoo. They crossed North Parkway and entered the Rhodes College campus, mostly settling on the roof of Burrow Hall, which was then the library. Eventually, the monkeys were recaptured after eating some tranquilizer-laced popcorn.  Evidence: [video](https://youtu.be/rr4qA8oDFDY).
 
 Now, the monkeys have escaped again, and again decided to visit the Rhodes campus. They have all been captured except one very sneaky monkey who is has taken up residence in the BCLC ballroom. However, nobody can seem to locate the monkey in the ballroom, since it mostly hides and only comes out from time to time. Rhodes College has turned to you to use your AI skills to capture the monkey.
 
@@ -44,7 +44,7 @@ You decide to set up the Bayes net as follows:
 
 <img src="bayesnet.png" width=500>
 
-We describe the conditional probability tables below, because they are a bit more complicated than what we’ve used before. In 
+We describe the conditional probability tables **(CPTs)** below, because they are a bit more complicated than what we’ve used before. In 
 particular, while $$M1$$ and $$M2$$ are binary random variables (whether or not the monkey is detected given its current location), $$L$$, $$C$$, and $$S$$ 
 are random variables whose values are are  _locations_  (ordered pairs), not booleans.
 
@@ -261,8 +261,8 @@ Here’s an example:
 
 ### Printing results
 
-After your program reads the text file, it should print out the starting distribution for $$L$$, which will always be equal probabilities in all squares. Then, your program should print out, 
-for every time step, the probability of the monkey being in every square on the grid.  _Remember that after each time step, the current distribution for $$C$$ becomes the next starting 
+After your program reads the text file, it must print out **the starting distribution for $$L$$**, which will always be equal probabilities in all squares. Then, your program must print out, 
+for every time step, **the probability, for every available square, of the monkey being in that square**.  _Remember that after each time step, the current distribution for $$C$$ becomes the next starting 
 probability distribution for $$L$$!_  (This is called a  [dynamic bayes net](https://en.wikipedia.org/wiki/Dynamic_Bayesian_network).)
 
 ## Sample output
@@ -332,9 +332,10 @@ Text file:  [monkey4.txt](monkey4.txt)  Output:  [m4-output.txt](m4-output.txt) 
 
 ## Submission instructions
 
-Through Canvas, upload all your source code files and your file with the answers to the questions above.
+To submit, upload all your source code files to canvas, including **your name and honor pledge**.  Make sure to also submit your **answers to the post-project questions**
+
+Before submitting, make sure that you've included all the requirements for this project!  You can double-check by searching this page (ctrl+f or command+f) for **'must'**; important details related to the assignment are also highlighted for your convenience.
 
 ## Challenges
-- Implement the tree-based Bayes net exact inference algorithm from class (rather than the baseline algorithm used in this project, which repeats a lot of calculations.)
 - Use your favorite graphics library to present the output as a grid of squares which change color with the probabilities, showing hot and cold zones for where the monkey is.  You could use, for instance, shades of blue and red that gradually change as the monkey moves around.
 - Invent more variables for the Bayes net (e.g., more sensors) and add them to the project.  If you do this challenge, turn in one copy of the code for the original project and a modified one for the challenge.
