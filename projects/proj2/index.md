@@ -136,7 +136,7 @@ Note: Because we are using a cut-off depth, the computer player is not expected 
 
 ## Submission instructions
 
-To submit, upload all your source code files to canvas, including **your name and honor pledge**, and **ensure that your tests for all the required functions**.  Make sure to also submit your **answers to the post-project questions**
+To submit, upload all your source code files to canvas, including **your name and honor pledge**, and **ensure that your program has tests for all the required functions**.  Make sure to also submit your **answers to the post-project questions**
 
 Before submitting, make sure that you've included all the requirements for this project!  You can double-check by searching this page (ctrl+f or command+f) for **'must'**; important details related to the assignment are also highlighted for your convenience.
 
