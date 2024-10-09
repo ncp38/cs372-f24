@@ -89,7 +89,7 @@ Tue, Oct 8
 Thu, Oct 10
 : **Statistical Inference I**  
 : [**Slides**](lectures/statinf/stat-inf-day1-ml-map.pdf)  
-: [**Homework 4**](homework/hw4){: .label .label-hw } due Oct. 24
+: [**Homework 4**](homework/hw4.pdf){: .label .label-hw } due Oct. 24
 : **Reading**{: .label .label-reading} (use slides)
 
 Tue, Oct 15
