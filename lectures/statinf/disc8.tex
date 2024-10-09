@@ -1,0 +1,55 @@
+\documentclass[letterpaper,11pt,english,oneside]{article}
+\usepackage[pdftex]{graphics}
+\usepackage{amsmath,amssymb,rotating,multirow}
+\usepackage{palatino}
+\usepackage{url,fullpage}
+
+\usepackage[plain]{algorithm}
+\usepackage{algpseudocode}
+
+\pagestyle{empty}
+
+\usepackage{parskip}
+\usepackage{setspace}
+\onehalfspacing
+
+\setlength{\parskip}{10pt}
+\setlength{\parindent}{0em}
+
+\newcommand{\prob}[1]{\mathbb P \left [ #1 \right ]}
+\newcommand{\g}{\,|\,}
+
+\begin{document}
+
+Names:
+
+\begin{center}
+\LARGE CMPSCI 240\\
+Reasoning Under Uncertainty\\
+Discussion 8\\
+\end{center}
+
+The writers for \textit{Saturday Night Live} are analyzing some
+classic \textit{SNL} sketches from the 1970s to figure out which
+combinations of actors worked best together to create the funniest
+sketches.
+
+In a sample of 10 classic sketches, viewers thought 6 were funny and 4
+were not funny. In the 6 funny sketches, Dan Aykroyd appeared in 4,
+John Belushi in 2, and Jane Curtin in 5.  In the 4 non-funny sketches,
+Dan Aykroyd appeared in 3, John Belushi in 1, and Jane Curtin in 2.
+
+The writers assume that the presence or absence of any actor is
+conditionally independent of the presence or absence of any other
+actor, given that the sketch is already known to be funny or not.
+
+The writers have just created a new sketch involving Dan Aykroyd and
+Jane Curtin but not John Belushi.  \textbf{What is the maximum a
+  posteriori hypothesis regarding whether this sketch will be funny or
+  not.  Then find the posterior probability that this sketch will be
+  funny.}
+
+Note: You should smooth the probabilities of the features given the
+classes, but not the priors.
+
+\end{document}

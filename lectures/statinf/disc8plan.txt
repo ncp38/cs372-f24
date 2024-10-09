@@ -1,0 +1,54 @@
+A new email has been received and it has the words "buy" and
+"win". Classify it and send it to the inbox or to the spam
+folder. Here you can go through the database and count how many spam
+emails contain both words "buy" and "win" and how many non-spam emails
+contain both words "buy" and "win". Doing this would be correct and
+you can use the exact same procedure that we used before to calculate
+the probabilities. Counting the 100 emails we get these stats:
+
+* 58 of those 100 emails are spam
+
+* 40 of those 58 emails that are spam have the words "buy" and "win"
+
+* 42 of those 100 emails aren't spam
+
+* 2 of those 42 emails that aren't spam have the words "buy" and "win"
+
+Then you can apply Bayes' rule to get:
+
+P(spam | "buy" AND "win") = P("buy" AND "win" | spam) * P(spam) / (P("buy" AND "win" | spam) * P(spam) + P("buy" AND "win" | not spam) * P(not spam))
+
+P(spam | "buy" AND "win") = 0.689 * 0.580 / (0.689 * 0.580 + 0.048 * 0.420) = 0.3996 / (0.3996 + 0.0202) = 0.952
+
+This works great but things get complicated when instead of two
+"features" you have a hundred or a thousand. Then you would need to
+calculate the probabilities for every combination of those features
+and that can be too expensive. So here cames the Naive Bayes
+assumption: Each feature is independent from the other features.
+
+With this assumption we can just estimate the probability of each
+feature independently. So now counting the 100 emails we get:
+
+* 58 of those 100 emails are spam
+
+* 47 of those 58 emails that are spam have the word "buy"
+
+* 41 of those 58 emails that are spam have the word "win"
+
+* 42 of those 100 emails aren't spam
+
+* 3 of those 42 emails that aren't spam have the word "buy"
+
+* 5 of those 42 emails that aren't spam have the word "win"
+
+And we can calculate the following probabilities
+
+P("buy" AND "win" | spam) = P("buy" | spam) * P("win" | spam) =(47+1/58+2)*(41+1/58+2)=48/60 * 42/60= 0.8 * 0.7 = 0.56
+
+P("buy" AND "win" | not spam) = P("buy" | not spam) * P("win" | not spam) =(3+1/42+2)*(5+1/42+2)=4/44 * 6/44= 0.09 * 0.14 = 0.0126
+
+Then you can apply Bayes' rule to get:
+
+P(spam | "buy" AND "win") = P("buy" AND "win" | spam) * P(spam) / (P("buy" AND "win" | spam) * P(spam) + P("buy" AND "win" | not spam) * P(not spam))
+
+P(spam | "buy" AND "win") = 0.56 * 0.58 / (0.56 * 0.58 + 0.0126 * 0.42) = 0.984
