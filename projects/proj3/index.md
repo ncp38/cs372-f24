@@ -267,6 +267,8 @@ probability distribution for $$L$$!_  (This is called a  [dynamic bayes net](htt
 
 ## Sample output
 
+Zipped file:  [All Monkey Files](monkeyOutput.zip)
+
 Text file:  [monkey1.txt](monkey1.txt)  Output:  [m1-output.txt](m1-output.txt)  Debugging:  [m1-debug.txt](m1-debug.txt)
 
 Text file:  [monkey2.txt](monkey2.txt)  Output:  [m2-output.txt](m2-output.txt)  Debugging:  [m2-debug.txt](m2-debug.txt)
