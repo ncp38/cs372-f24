@@ -99,7 +99,7 @@ Tue, Oct 15
 Thu, Oct 17
 : **Statistical Inference II**  
 : [**Slides**](lectures/statinf/stat-inf-day2-combining-evidence.pdf)  
-: [**Bonus: Homework 5**](homework/hw5){: .label .label-hw } up to +5 points due Nov. 5!
+<!---: [**Bonus: Homework 5**](homework/hw5){: .label .label-hw } up to +5 points due Nov. 5!--->
 : **Reading**{: .label .label-reading} (use slides)
 
 Tue, Oct 22
