@@ -108,6 +108,7 @@ Tue, Oct 22
 Thu, Oct 24
 : **Naive Bayes Classifiers and review**  
 : [**Review Problems**](lectures/review/f24MidtermReviewAI.pdf)
+: [**Review Solutions**](lectures/review/f24MidtermReviewAI.pdf)
 : [**Slides**](lectures/statinf/stat-inf-day3-naive-bayes.pdf) 
 : **Reading**{: .label .label-reading} (use slides)
 
