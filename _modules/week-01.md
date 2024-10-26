@@ -110,6 +110,9 @@ Thu, Oct 24
 : [**Review Problems**](lectures/review/f24MidtermReviewAI.pdf)
 : [**Review Solutions**](lectures/review/f24MidtermReviewSolsAI.pdf)
 : [**Slides**](lectures/statinf/stat-inf-day3-naive-bayes.pdf) 
+: [**Homework 1 Solutions**](https://rhodes.instructure.com/files/925312/download?download_frd=1)
+: [**Homework 2 Solutions**](https://rhodes.instructure.com/files/925313/download?download_frd=1)
+: [**Homework 3 Solutions**](https://rhodes.instructure.com/files/925314/download?download_frd=1)
 : **Reading**{: .label .label-reading} (use slides)
 
 Tue, Oct 29
