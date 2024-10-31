@@ -122,7 +122,7 @@ Thu, Oct 31
 : **Markov Chains**
 <!--- Slides --->
 : Happy Halloween!
-: [**Slides**](lectures/statinf/markov1-slides.pdf) 
+: [**Slides**](lectures/markov/markov1-slides.pdf) 
 
 Tue, Nov 5
 : **Hidden Markov Models I**  
