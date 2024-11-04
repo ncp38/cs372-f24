@@ -132,7 +132,7 @@ Tue, Nov 5
 Thu, Nov 7
 : **Hidden Markov Models II**
 <!--- Slides --->
-: [**Homework 5**](homework/hw6){: .label .label-hw } due Nov. 14
+: [**Homework 5**](homework/hw5/hw5.pdf){: .label .label-hw } due Nov. 14
 
 Tue, Nov 12
 : **Reinforcement Learning I**  

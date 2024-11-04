@@ -1,0 +1,110 @@
+\documentclass[letterpaper,11pt,english,oneside]{article}
+\usepackage[pdftex]{graphics}
+\usepackage{amsmath,amssymb}
+\usepackage{url,fullpage}
+
+\usepackage[plain]{algorithm}
+\usepackage{algpseudocode}
+
+\pagestyle{empty}
+
+\usepackage{parskip}
+\usepackage{setspace}
+%\onehalfspacing
+
+%\setlength{\parskip}{10pt}
+%\setlength{\parindent}{0em}
+
+\newcommand{\prob}[1]{\mathbb P \left [ #1 \right ]}
+\newcommand{\g}{\,|\,}
+
+\begin{document}
+
+Artificial Intelligence \\
+Homework 4
+
+
+\begin{enumerate}
+
+
+\item \emph{Note: This problem involves multiplying vectors and matrices.  You are welcome to use software to do the
+multiplications itself, however, you should show all your work.  }
+
+%Another way of thinking about this is that you should 
+%understand the math well enough to do it by hand if I asked you to.  That is, you should know how to multiply 2-by-2
+%matrices and vectors by hand.  (Hint, hint.)}
+
+
+Professor Somnus is investigating whether the students in his class are getting enough 
+sleep.  He collects some data and deduces that the probability that a student will get
+enough sleep on a given night only depends on whether they got enough sleep the night before.
+If a student gets enough sleep the previous night, the probability they will get enough sleep
+tonight is 0.8.  If they didn't get enough sleep the previous night, the probability they
+will get enough sleep tonight is only 0.3.  
+
+\begin{enumerate}
+
+	\item Formulate this problem using a Markov chain. 
+	
+	(1) Draw the Markov chain diagram 
+	showing the probability of transitioning between ``enough sleep'' and ``not 
+	enough sleep.'' (This is the not the Bayes net diagram; this is the diagram that shows up
+	at the top of the page at en.wikipedia.org/wiki/Markov$\_$chain.)
+	
+	(2) Write down the transition matrix $T$.
+	
+	\item Assuming you got enough sleep on night 0, what's the probability you get enough
+	sleep on night 3?
+	
+	(1) Show the initial state vector, $v_0$.
+	
+	(2) Calculate and show the probability distribution for nights 1, 2, and 3 by multiplying by $T$.
+	
+	\item In the far, far, future, what is the probability of getting enough sleep on 
+	some night?
+
+\end{enumerate}
+
+\item Continuing with the situation in Problem 1, Professor Somnus has no way of directly
+observing whether or not his students are getting enough sleep.  All he can observe is
+whether they are falling asleep in his class or not.  He knows that if a student gets
+enough sleep on some night, the next day there is a 0.1 probability that they will fall 
+asleep in class.  If they don't get enough sleep the night before, there's a 0.3
+probability of falling asleep in class.
+
+For this question, assume that night $x$ is followed by day $x$. 
+
+\begin{enumerate}
+
+\item Professor Somnus observes a certain student falling asleep in class on day 1, staying
+awake on day 2, but falling asleep again on day 3.  Calculate the probability, using the forward algorithm, that the student got enough sleep on night 3, given that sequence of observations.  (Remember, night 3 happens right before day 3).  The professor assumes there's
+an equal prior probability of enough sleep/not enough sleep on night zero.
+
+(1) Write out the appropriate matrices $O_1$, $O_2$, and $O_3$.
+
+(2) Write out the initial vector $f_0$.
+
+(3) Use the forward algorithm to calculate the probability distributions for enough sleep/not
+enough sleep on nights 1, 2, and 3.  Show your work.
+
+(Note that there is another page!)
+
+\item Suppose Prof Somnus wants to predict the probability distribution for enough
+sleep/not enough sleep on night \textbf{4}, given the evidence on days 1, 2, and 3.  (Note that there is no evidence observation for day 4.)
+How do you think the professor could do this?  Hint: If there is no evidence, an HMM simply
+degrades back into a Markov chain.  What should Prof Somnus predict as the probability
+distribution for for enough sleep/not
+enough sleep  on day 4?  Show your work.
+
+\item Professor Somnus remembers that in Hidden Markov Models, the observations can affect
+our beliefs about the past, as well as the future.  Use the backward algorithm to re-calculate
+Professor Somnus's belief of getting enough sleep on night 1, given the the
+sequence of observations.  Show your work.  (Hint: Your work for part (a) matters here, but part (b) does not.)
+
+
+\end{enumerate}
+
+
+\end{enumerate}
+
+\end{document}
