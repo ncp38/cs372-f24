@@ -16,7 +16,7 @@ For this project, you will build a Naive Bayes classifier which will classify em
 
 The features your classifier will use are the presence or absence of every word in the training set of emails. Multiple occurrences of a word in an email should not affect your classifier --- only whether the word is present or not.
 
-## What your program should do
+## What your program must do
 
 The program operates in two phases. First, in the *training phase*, your program reads in two different text files containing training examples for the two classes. These two files together are called the *training set*. Your program will examine the emails in the training set and, for each class, tabulate information about the number of training examples and how many times each word in the vocabulary appears in the examples for that class. (The "vocabulary" is the set of all words that appear in the training set emails.)
 
@@ -169,6 +169,10 @@ Useful statistics: vocab size = 78082, priors = 0.7866966480154788 and 0.2133033
 ## Submission instructions
 
 Through Canvas, upload all your source code files and your file with the answers to the questions above.
+
+To submit, upload all your source code files to canvas, including **your name and honor pledge**.  Make sure to also submit your **answers to the post-project questions**
+
+Before submitting, make sure that you've included all the requirements for this project!  You can double-check by searching this page (ctrl+f or command+f) for **'must'**; important details related to the assignment are also highlighted for your convenience.
 
 ## Challenges
 
