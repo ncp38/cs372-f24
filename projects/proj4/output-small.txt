@@ -1,0 +1,23 @@
+Training from train-spam-small.txt and train-ham-small.txt
+Testing from test-spam-small.txt and test-ham-small.txt
+number of emails 3 vs 2
+entire vocab {'viagra', 'phil', 'the'}
+entire vocab size is 3
+spam words {'viagra': 3, 'phil': 1, 'the': 3}
+ham words {'the': 2, 'phil': 2, 'viagra': 0}
+Beginning tests.
+Testing spam emails.
+Test email 1
+priors= 0.6 0.4
+likelihoods= 0.064 0.046875
+probs= 0.0384 0.018750000000000003
+TEST 1 2/3 features true -3.260 -3.977 spam right
+1 out of 1 classified correctly.
+Testing ham emails.
+Test email 1
+priors= 0.6 0.4
+likelihoods= 0.023999999999999987 0.046875
+probs= 0.014399999999999991 0.018750000000000003
+TEST 1 0/3 features true -4.241 -3.977 ham right
+1 out of 1 classified correctly.
+Total: 2/2 emails classified correctly.

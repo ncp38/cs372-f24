@@ -1,0 +1,3 @@
+TEST 1 2/3 features true -3.260 -3.977 spam right
+TEST 1 0/3 features true -4.241 -3.977 ham right
+Total: 2/2 emails classified correctly.
