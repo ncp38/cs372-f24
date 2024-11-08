@@ -125,17 +125,17 @@ Useful statistics: vocab size = 78082, priors = 0.7866966480154788 and 0.2133033
 
 ## Walkthrough on sample data
 
-- First, remember that all the calculations always have the same number of components (for a run of the program), and they don't depend on the number of words in the test email. In other words, for the small example, you will always have four terms being multiplied (because there's one for the prior, and three features, one each for `phillips`/`viagra`/`the`).
+- First, remember that all the calculations always have the same number of components (for a run of the program), and they don't depend on the number of words in the test email. In other words, for the small example, you will always have four terms being multiplied (because there's one for the prior, and three features, one each for `phil`/`viagra`/`the`).
 
 - For the small training set, we have the following:
   - 5 total emails: 3 spam, 2 ham.
-  - Of the 3 spam emails, 3 have `viagra`, 1 has `phillips`, 3 have `the`.
-  - Of the 2 ham emails, 0 have `viagra`, 2 have `phillips`, 2 have `the`.
-- For testing: For the first email in the test set, `viagra` and `phillips` are present, but not `the`. So there are three features, two "positive" (`viagra`/`phillips`) and one negative (`the`). So the math goes like this:
+  - Of the 3 spam emails, 3 have `viagra`, 1 has `phil`, 3 have `the`.
+  - Of the 2 ham emails, 0 have `viagra`, 2 have `phil`, 2 have `the`.
+- For testing: For the first email in the test set, `viagra` and `phil` are present, but not `the`. So there are three features, two "positive" (`viagra`/`phil`) and one negative (`the`). So the math goes like this:
 - For SPAM:
   - \$$ P(\text{spam}) = 3/5 $$
   - \$$ P(\text{viagra} \mid \text{spam}) = 3/3 \to \text{smooth} \to 4/5 $$
-  - \$$ P(\text{phillips} \mid \text{spam}) = 1/3 \to \text{smooth} \to 2/5 $$
+  - \$$ P(\text{phil} \mid \text{spam}) = 1/3 \to \text{smooth} \to 2/5 $$
   - \$$ P({\sim}\text{the} \mid \text{spam}) = 1 - P(\text{the} \mid \text{spam}) = 1 - 3/3 = 0/3 \to \text{smooth} \to 1/5 $$
 - Normally, we would multiply these probabilities next:
   - \$$ 3/5 \cdot 4/5 \cdot 2/5 \cdot 1/5 = .0384 $$
@@ -145,7 +145,7 @@ Useful statistics: vocab size = 78082, priors = 0.7866966480154788 and 0.2133033
 - For HAM:
   - \$$P(\text{ham}) = 2/5 $$
   - \$$P(\text{viagra} \mid \text{ham}) = 0/2 \to \text{smooth} \to 1/4$$
-  - \$$P(\text{phillips}\mid \text{ham}) = 2/2 \to \text{smooth} \to 3/4$$
+  - \$$P(\text{phil}\mid \text{ham}) = 2/2 \to \text{smooth} \to 3/4$$
   - \$$P({\sim}\text{the}\mid \text{ham}) = 1 - P(\text{the}\mid \text{ham}) = 1 - 2/2 = 0/2 \to \text{smooth} \to 1/4$$
 - Multiply everything (or rather, take the log of each probability and add):
   - \$$\ln(2/5) + \ln(1/4) + \ln(3/4) + \ln(1/4) = -3.977 \text{ (rounded)}$$
