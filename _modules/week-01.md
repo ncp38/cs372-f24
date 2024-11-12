@@ -132,11 +132,12 @@ Tue, Nov 5
 Thu, Nov 7
 : **Hidden Markov Models II**
 <!--- Slides --->
-: [**Homework 5**](homework/hw5/hw5.pdf){: .label .label-hw } due Nov. 14
 
 Tue, Nov 12
-: **Reinforcement Learning I**  
+: **Hidden Markov Model Wrap-up & Reinforcement Learning I**  
 <!--- Slides --->
+: [**The Squirrel Problem**](lectures/markov/squirrel-problem.pdf) 
+: [**Homework 5**](homework/hw5/hw5.pdf){: .label .label-hw } due Nov. 14
 
 Thu, Nov 14
 : **Reinforcement Learning II**  
