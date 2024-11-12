@@ -141,6 +141,7 @@ Tue, Nov 12
 
 Thu, Nov 14
 : **Reinforcement Learning II**  
+: [**Reinforcement Learning Summary**](lectures/reinforcementLearning/rlHighlights.pdf) 
 <!--- Slides --->
 
 Tue, Nov 19
