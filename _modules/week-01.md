@@ -148,7 +148,6 @@ Tue, Nov 19
 : **Reinforcement Learning III**
 <!--- Slides --->
 : [**Reinforcement Learning Slides**](lectures/reinforcementLearning/rlSlides.pdf)
-: [**Homework 6**](homework/hw7){: .label .label-hw } due Nov. 26
   
 Thu, Nov 21
 : **Neural Networks I**
@@ -158,7 +157,7 @@ Thu, Nov 21
 Tue, Nov 26
 : **Neural Networks II**  
 <!--- Slides --->
-: [**Homework 7**](homework/hw8){: .label .label-hw } due Dec. 5
+: [**Homework 6**](homework/hw6){: .label .label-hw } due Dec. 5
 
 Thu, Nov 28
 : No class, Thanksgiving break
