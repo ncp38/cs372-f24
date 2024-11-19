@@ -147,6 +147,7 @@ Thu, Nov 14
 Tue, Nov 19
 : **Reinforcement Learning III**
 <!--- Slides --->
+: [**Reinforcement Learning Slides**](lectures/reinforcementLearning/rlSlides.pdf)
 : [**Homework 6**](homework/hw7){: .label .label-hw } due Nov. 26
   
 Thu, Nov 21
