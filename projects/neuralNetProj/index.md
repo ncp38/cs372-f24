@@ -24,15 +24,17 @@ Note that this project is a 50-point project, as well.
 
 First, **read Chapter 1** of  [<ins>Neural Networks and Deep Learning</ins>](http://neuralnetworksanddeeplearning.com/chap1.html).  This chapter will provide a walkthrough of some basic neural net concepts (that we'll also be going over in class) as well as discussing the motivation and reasoning behind our neural network program.
 
-Next, use the code provided at this github ([Python neural net code](https://github.com/mnielsen/neural-networks-and-deep-learning/blob/master/src/mnist_average_darkness.py), linked in the chapter above).  This is Python code and requires the numpy library as well, both readily available online.
+Next, **use one of the code repositories to implement your neural network**. You may use the code provided at this github if you prefer to use Python ([Python neural net code](https://github.com/mnielsen/neural-networks-and-deep-learning/blob/master/src/mnist_average_darkness.py), linked in the chapter above).  This code requires the numpy library, readily available online.
 
-If you'd prefer to use Java for this project, you can use [Java Neural Net Code](https://www.makariev.com/blog/java-neural-network-tutorial-classifying-MNIST-handwritten-digits/), but I still require following along in Chapter 1, as it has a more thorough overview of what we're doing with this code.  This code also requires an outside library as well.
+If you'd prefer to use Java for this project, you can use [Java Neural Net Code](https://www.makariev.com/blog/java-neural-network-tutorial-classifying-MNIST-handwritten-digits/), though I still require following along in Chapter 1 of the book, as it has a more thorough overview of what we're doing with this code.  This code also requires the JBang library, readily available online.
+
+Finally, **verify that your code is working** by training a neural network and running a test on it.  Once you have done this, **experiment with different variable configurations** to see what changes in the output.  I encourage taking some notes as you progress through this so that you remember the results of different runs are.  Take some time in this phase of the process to look over the code and evaluate what it's doing.  You can even tweak the code to see what happens if different parts of it are changed.  Use the information you've gained from this stage to write the questions document; your analysis and experimentation will be important for your grade. 
 
 ## Recommendations
 
 - This is a shorter project, but make sure that you budget time to adjust the neural net settings and evaluate the results.
 - With modern computing, neural nets can be trained and tested relatively quickly, but may still take a fair bit of time to run, depending on the machine.
-- *Optional:* If you're interested in taking this project a step further, you could try testing your network on photos of your own handwritten numbers.  Note that this may take some work to create enough photos for a reasonable test set and then to get those photos into a workable format.
+- *Optional:* If you're interested in taking this project a step further, you could try testing your network on photos of your own handwritten numbers.  Note that this may take some work to create enough photos for a reasonable test set and may also be challenging to get those photos into a workable format.
 
 ## At the end of the project
 
@@ -43,7 +45,7 @@ If you'd prefer to use Java for this project, you can use [Java Neural Net Code]
     4.  Mention any challenges that you did.
     5.  List any other feedback you have. Feel free to provide any feedback on how much you learned from doing the assignment, and whether you enjoyed doing it.
 	6.  Discuss your work with the neural network.  What variables have you adjusted, and what changes did that cause?  
-	7.  What were your findings from this project and this experimentation?  Have you come to any conclusions about neural networks?
+	7.  What were your findings from this project and from your experimentation?  Have you come to any conclusions about neural networks?
 	8.  After this project, do you have a better understanding of neural networks?  Do you feel that you could use them again in another context?
 -   Please also add a comment at the top of your files stating your **name and a pledge that you have followed the honor code** and collaboration policy for this project. This can be as simple as writing “**I have neither given nor received unauthorized aid on this program.**”  For this project, you must also include **a citation for your code's source**. You can find the collaboration policy on the syllabus.
 
