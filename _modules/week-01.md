@@ -164,9 +164,6 @@ Thu, Nov 28
 
 Tue, Dec 3
 : **Neural Networks III**
-: [**Example Neural Networks Project**](http://neuralnetworksanddeeplearning.com/chap1.html) 
-
-https://www.makariev.com/blog/java-neural-network-tutorial-classifying-MNIST-handwritten-digits/
 <!--- Slides --->
   
 Thu, Dec 5
