@@ -148,7 +148,7 @@ Tue, Nov 19
 : **Reinforcement Learning III**
 <!--- Slides --->
 : [**Reinforcement Learning Slides**](lectures/reinforcementLearning/rlSlides.pdf)
-: [**Example Problems for Reinforcement Learning**](homework/hw6){: .label .label-hw }
+: [**Example Problems for Reinforcement Learning**](homework/hw6/hw6.pdf){: .label .label-hw }
   
 Thu, Nov 21
 : **Neural Networks I**
