@@ -152,7 +152,7 @@ Tue, Nov 19
 Thu, Nov 21
 : **Neural Networks I**
 <!--- Slides --->
-: [**Neural net mini-project**](projects/proj5){: .label .label-proj } (50 point project) due Dec. 10
+: [**Neural net mini-project**](projects/neuralNetProj){: .label .label-proj } (50 point project) due Dec. 10
   
 Tue, Nov 26
 : **Neural Networks II**  
@@ -164,6 +164,9 @@ Thu, Nov 28
 
 Tue, Dec 3
 : **Neural Networks III**
+: [**Example Neural Networks Project**](http://neuralnetworksanddeeplearning.com/chap1.html) 
+
+https://www.makariev.com/blog/java-neural-network-tutorial-classifying-MNIST-handwritten-digits/
 <!--- Slides --->
   
 Thu, Dec 5
