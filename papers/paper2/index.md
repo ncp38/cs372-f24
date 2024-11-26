@@ -6,7 +6,7 @@ parent: papers
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 
-# AI Paper 1: Some Weaknesses of Large Language Models
+# AI Paper 2: Some Weaknesses of Large Language Models
 {: .no_toc }
 
 1. TOC
