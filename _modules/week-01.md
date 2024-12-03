@@ -160,7 +160,7 @@ Tue, Nov 26
 : **Neural Networks II**  
 <!--- Slides --->
 : [**Neural Network Playground**](https://playground.tensorflow.org/) 
-: [**Homework 6**](homework/hw7/hw7.pdf){: .label .label-hw } due Dec. 5
+: [**Homework 6**](homework/hw7/hw7.pdf){: .label .label-hw } due Dec. 7
 
 Thu, Nov 28
 : No class, Thanksgiving break
