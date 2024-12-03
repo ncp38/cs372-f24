@@ -149,7 +149,7 @@ Tue, Nov 19
 <!--- Slides --->
 : [**Reinforcement Learning Slides**](lectures/reinforcementLearning/rlSlides.pdf)
 : [**Example Problems for Reinforcement Learning**](homework/hw6/hw6.pdf){: .label .label-hw }
-: [**Example Problems for Reinforcement Learning**](homework/hw6/hw6-sol.pdf){: .label .label-hw }
+: [**Solutions**](homework/hw6/hw6-sol.pdf){: .label .label-hw }
   
 Thu, Nov 21
 : **Neural Networks I**
@@ -171,6 +171,11 @@ Tue, Dec 3
   
 Thu, Dec 5
 : **Flex Day and Student Evals**
+: [**Homework 4 Solutions**](https://rhodes.instructure.com/files/947439/download?download_frd=1)
+: [**Homework 5 Solutions**](https://rhodes.instructure.com/files/947457/download?download_frd=1)
+
+#: [**Homework 6 Solutions**]()
+
 
 Tue, Dec 10
 : **Wrapup and Final Exam Review**  
