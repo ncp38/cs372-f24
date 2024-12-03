@@ -174,7 +174,7 @@ Thu, Dec 5
 : [**Homework 4 Solutions**](https://rhodes.instructure.com/files/947439/download?download_frd=1)
 : [**Homework 5 Solutions**](https://rhodes.instructure.com/files/947457/download?download_frd=1)
 
-#: [**Homework 6 Solutions**]()
+#: [**Homework 6 Solutions**](https://rhodes.instructure.com/files/947477/download?download_frd=1)
 
 
 Tue, Dec 10
