@@ -171,6 +171,9 @@ Tue, Dec 3
   
 Thu, Dec 5
 : **Flex Day and Student Evals**
+: [**Final Review**](lectures/review/f24FinalReviewAI.pdf)
+
+
 : [**Homework 4 Solutions**](https://rhodes.instructure.com/files/947439/download?download_frd=1)
 : [**Homework 5 Solutions**](https://rhodes.instructure.com/files/947457/download?download_frd=1)
 
