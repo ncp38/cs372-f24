@@ -91,14 +91,14 @@ Thu, Oct 10
 
 Tue, Oct 15
 : **Statistical Inference I**
-: [**Slides**](lectures/statinf/stat-inf-day1-ml-map.pdf)  
+: [**Slides**](lectures/statinf/stat-inf-day1-ml-map.pdf){: .label .label-lecture}  
 : [**Paper 2**](papers/paper2){: .label .label-paper } due Dec. 5
 : [**Homework 4**](homework/hw4/hw4.pdf){: .label .label-hw } due Nov. 5
 : **Reading**{: .label .label-reading} (use slides)
   
 Thu, Oct 17
 : **Statistical Inference II**  
-: [**Slides**](lectures/statinf/stat-inf-day2-combining-evidence.pdf)  
+: [**Slides**](lectures/statinf/stat-inf-day2-combining-evidence.pdf){: .label .label-lecture}  
 <!---: [**Bonus: Homework 5**](homework/hw5){: .label .label-hw } up to +5 points due Nov. 5!--->
 : **Reading**{: .label .label-reading} (use slides)
 
@@ -109,7 +109,7 @@ Thu, Oct 24
 : **Naive Bayes Classifiers and review**  
 : [**Review Problems**](lectures/review/f24MidtermReviewAI.pdf)
 : [**Review Solutions**](lectures/review/f24MidtermReviewSolsAI.pdf)
-: [**Slides**](lectures/statinf/stat-inf-day3-naive-bayes.pdf) 
+: [**Slides**](lectures/statinf/stat-inf-day3-naive-bayes.pdf){: .label .label-lecture}
 : [**Homework 1 Solutions**](https://rhodes.instructure.com/files/925312/download?download_frd=1)
 : [**Homework 2 Solutions**](https://rhodes.instructure.com/files/925313/download?download_frd=1)
 : [**Homework 3 Solutions**](https://rhodes.instructure.com/files/925314/download?download_frd=1)
@@ -122,7 +122,7 @@ Thu, Oct 31
 : **Markov Chains**
 <!--- Slides --->
 : Happy Halloween!
-: [**Slides**](lectures/markov/markov1-slides.pdf) 
+: [**Slides**](lectures/markov/markov1-slides.pdf){: .label .label-lecture}
 
 Tue, Nov 5
 : **Hidden Markov Models I**  
@@ -141,13 +141,13 @@ Tue, Nov 12
 
 Thu, Nov 14
 : **Reinforcement Learning II**  
-: [**Reinforcement Learning Summary**](lectures/reinforcementLearning/rlHighlights.pdf) 
+: [**Reinforcement Learning Summary**](lectures/reinforcementLearning/rlHighlights.pdf){: .label .label-lecture} 
 <!--- Slides --->
 
 Tue, Nov 19
 : **Reinforcement Learning III**
 <!--- Slides --->
-: [**Reinforcement Learning Slides**](lectures/reinforcementLearning/rlSlides.pdf)
+: [**Reinforcement Learning Slides**](lectures/reinforcementLearning/rlSlides.pdf){: .label .label-lecture}
 : [**Example Problems for Reinforcement Learning**](homework/hw6/hw6.pdf){: .label .label-hw }
 : [**Solutions**](homework/hw6/hw6-sol.pdf){: .label .label-hw }
   
@@ -167,10 +167,10 @@ Thu, Nov 28
 
 Tue, Dec 3
 : **Neural Networks III**
-<!--- Slides --->
+: [**Neural Network Learning Slides**](lectures/neuralNetworks/nn.pdf){: .label .label-lecture}
   
 Thu, Dec 5
-: **Flex Day and Student Evals**
+: **Wrap-up lecture, questions, and exam review**
 : [**Final Review**](lectures/review/f24FinalReviewAI.pdf)
 
 
@@ -181,7 +181,7 @@ Thu, Dec 5
 
 
 Tue, Dec 10
-: **Wrapup and Final Exam Review**  
+: **Final Exam Review**  
 
 Thu, Dec 12
 : Reading Day
