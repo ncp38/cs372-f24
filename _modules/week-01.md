@@ -172,6 +172,7 @@ Tue, Dec 3
 Thu, Dec 5
 : **Wrap-up lecture, questions, and exam review**
 : [**Final Review**](lectures/review/f24FinalReviewAI.pdf)
+: [**Final Review Solutions**](lectures/review/f24FinalReviewSolsAI.pdf)
 
 : [**Homework 4 Solutions**](https://rhodes.instructure.com/files/947439/download?download_frd=1)
 : [**Homework 5 Solutions**](https://rhodes.instructure.com/files/947457/download?download_frd=1)
